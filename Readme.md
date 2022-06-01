@@ -22,6 +22,10 @@ python main.py \
 ```
 
 # Dataset
+[View Directory](input/data/)
+
+<img src="input/data/bar_chart.png" width="400">
+
 Dictionary
 ```json
 {"Negative": 0, "Cause_of_disease": 1, "Treatment_of_disease": 2, "Association": 3}
@@ -43,3 +47,21 @@ id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_ent
 0	However, the growth rate of <e2start> tumors <e2end> was not markedly inhibited by <e1start> garlic <e1end>. 	83	107	28	52
 1	<e1start> Tobacco <e1end>-related <e2start> cancers <e2end> in Madras, India.  	0	25	34	59
 ```
+
+# Model input
+Biobert<br>[View Directory](model/)
+```yaml
+config.json
+flax_model.msgpack
+pytorch_model.bin
+special_tokens_map.json
+tokenizer_config.json
+vocab.txt
+```
+
+# output
+<img src="output/csv/train_chart_uji_1.png" width="400">
+- Preprocess
+- Train
+- Test
+- Predict
