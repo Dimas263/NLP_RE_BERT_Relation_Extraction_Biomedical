@@ -1,6 +1,8 @@
 # NLP - Relation Extraction Biobert
 NLP Research - Bert Relation Extraction in Biomedical.
 
+<img src="input/data/UML_NER_RE-Dataset.drawio.png" width="600">
+
 # Config
 ```yaml
 #!/usr/bin/env bash
