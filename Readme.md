@@ -1,7 +1,7 @@
 # NLP - Relation Extraction Biobert
 NLP Research - Bert Relation Extraction in Biomedical.
 
-<img src="input/data/UML_NER_RE-Dataset.drawio.png" width="600">
+<img src="input/data/UML-RE.drawio.png" width="600">
 
 # Config
 ```yaml
@@ -121,4 +121,4 @@ Treatment_of_disease       0.25      0.33      0.29         3
 [view model](output/checkpoint/)
 
 `Best.pt`
-model created by pytorch_model
+model created by pytorch
