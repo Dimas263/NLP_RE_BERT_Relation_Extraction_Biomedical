@@ -8,7 +8,7 @@ tokenizer_config.json
 vocab.txt
 ```
 
-vocab.txt
+config.json
 ```json
 {
   "architectures": [
