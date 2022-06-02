@@ -78,7 +78,7 @@ if __name__ == '__main__':
     train_loader = DataLoader(dataset=train_dataset,
                               batch_size=args.train_batch_size,
                               sampler=train_sampler,
-                              num_workers=4)
+                              num_workers=2)
     for step, train_data in enumerate(train_loader):
         print(train_data['token_ids'].shape)
         print(train_data['attention_masks'].shape)
