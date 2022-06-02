@@ -55,6 +55,10 @@ id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_ent
 
 # Model input
 Biobert<br>[View Directory](model/)
+
+Download Biobert
+`git clone https://huggingface.co/dmis-lab/biobert-v1.1`
+
 ```yaml
 config.json
 flax_model.msgpack
