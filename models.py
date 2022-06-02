@@ -86,7 +86,7 @@ if __name__ == '__main__':
     train_loader = DataLoader(dataset=train_dataset,
                               batch_size=args.train_batch_size,
                               sampler=train_sampler,
-                              num_workers=4)
+                              num_workers=2)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model = BertForRelationExtraction(args)
     model.to(device)
