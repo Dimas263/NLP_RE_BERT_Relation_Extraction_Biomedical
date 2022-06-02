@@ -33,6 +33,9 @@ Dictionary
 {"Negative": 0, "Cause_of_disease": 1, "Treatment_of_disease": 2, "Association": 3}
 ```
 Data Preprocessing
+
+<img src="input/data/data-preprocessing.png" width="600">
+
 example
 ```yaml
 id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_entity1	end_entity1	start_entity2	end_entity2
@@ -118,7 +121,7 @@ Treatment_of_disease       0.25      0.33      0.29         3
 ```
 
 # Model output
-[view model](output/checkpoint/)
+[view model](https://drive.google.com/drive/folders/1puazcgbXzkk0o4zUPjbFhUSHsHWL4jhT?usp=sharing)
 
 `Best.pt`
 model created by pytorch
