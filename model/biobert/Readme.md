@@ -1,4 +1,8 @@
 Biobert<br>[Huggingface models](https://huggingface.co/dmis-lab/biobert-v1.1)
+
+# Download Biobert
+`git clone https://huggingface.co/dmis-lab/biobert-v1.1`
+
 ```yaml
 config.json
 flax_model.msgpack
