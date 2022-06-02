@@ -223,7 +223,7 @@ if __name__ == '__main__':
         dataset=train_dataset,
         batch_size=args.train_batch_size,
         sampler=train_sampler,
-        num_workers=4
+        num_workers=2
     )
     #
     dev_features, dev_callback_info = dev_out
@@ -231,7 +231,7 @@ if __name__ == '__main__':
     dev_loader = DataLoader(
         dataset=dev_dataset,
         batch_size=args.eval_batch_size,
-        num_workers=4
+        num_workers=2
     )
     #
     test_features, test_callback_info = dev_out
@@ -239,7 +239,7 @@ if __name__ == '__main__':
     test_loader = DataLoader(
         dataset=test_dataset,
         batch_size=args.eval_batch_size,
-        num_workers=4
+        num_workers=2
     )
 
     trainer = Trainer(args, train_loader, dev_loader, test_loader)
