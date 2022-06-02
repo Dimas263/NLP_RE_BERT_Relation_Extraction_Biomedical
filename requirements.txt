@@ -1,8 +1,9 @@
+Anaconda 4.9.2
 python 3.8
 pandas 1.4.2
 matplotlib 3.5.1
 openpyxl 3.0.9
 pytorch 1.10.2
 transformers 4.18.0
-pickle
-scikit-learn
+scikit-learn 1.0.2
+pickleshare 0.7.5
