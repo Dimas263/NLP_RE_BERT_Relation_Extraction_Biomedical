@@ -64,7 +64,26 @@ tokenizer_config.json
 vocab.txt
 ```
 
-# output
+## Preprocessing
+```yaml
+2022-06-01 20:53:23,906 - INFO - preprocess.py - <module> - 185 - {'output_dir': 'input/checkpoint/', 'bert_dir': 'model/biobert/', 'data_dir': 'input/data/', 'log_dir': 'output/logs/', 'num_tags': 4, 'seed': 123, 'gpu_ids': '-1', 'max_seq_len': 128, 'eval_batch_size': 32, 'swa_start': 3, 'train_epochs': 100, 'dropout_prob': 0.3, 'lr': 3e-05, 'other_lr': 0.0003, 'max_grad_norm': 1, 'warmup_proportion': 0.1, 'weight_decay': 0.01, 'adam_epsilon': 1e-08, 'train_batch_size': 32, 'eval_model': True}
+2022-06-01 20:53:23,953 - INFO - preprocess.py - get_out - 156 - ==========================
+2022-06-01 20:53:23,953 - INFO - preprocess.py - get_out - 157 - example_text : Halothane is known to oppose <e1start> digitalis <e1end>-induced <e2start> ventricular arrhythmias <e2end>. 
+2022-06-01 20:53:23,953 - INFO - preprocess.py - get_out - 158 - example_id_label : 1
+2022-06-01 20:53:23,953 - INFO - preprocess.py - get_out - 159 - example_id_tags : [29, 56, 65, 106]
+2022-06-01 20:53:23,953 - INFO - preprocess.py - get_out - 160 - ==========================
+2022-06-01 20:53:24,062 - INFO - preprocess.py - convert_examples_to_features - 120 - Convert 46 examples to features
+2022-06-01 20:53:24,062 - INFO - preprocess.py - convert_bert_example - 95 - *** train_example-0 ***
+2022-06-01 20:53:24,062 - INFO - preprocess.py - convert_bert_example - 96 - text: [CLS] H a l o t h a n e [UNK] i s [UNK] k n o w n [UNK] t o [UNK] o p p o s e [UNK] < e 1 s t a r t > [UNK] d i g i t a l i s [UNK] < e 1 e n d > - i n d u c e d [UNK] < e 2 s t a r t > [UNK] v e n t r i c u l a r [UNK] a r r h y t h m i a s [UNK] < e 2 e n d >. [UNK] [SEP]
+2022-06-01 20:53:24,062 - INFO - preprocess.py - convert_bert_example - 97 - token_ids: [101, 145, 170, 181, 184, 189, 177, 170, 183, 174, 100, 178, 188, 100, 180, 183, 184, 192, 183, 100, 189, 184, 100, 184, 185, 185, 184, 188, 174, 100, 133, 174, 122, 188, 189, 170, 187, 189, 135, 100, 173, 178, 176, 178, 189, 170, 181, 178, 188, 100, 133, 174, 122, 174, 183, 173, 135, 118, 178, 183, 173, 190, 172, 174, 173, 100, 133, 174, 123, 188, 189, 170, 187, 189, 135, 100, 191, 174, 183, 189, 187, 178, 172, 190, 181, 170, 187, 100, 170, 187, 187, 177, 194, 189, 177, 182, 178, 170, 188, 100, 133, 174, 123, 174, 183, 173, 135, 119, 100, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-06-01 20:53:24,062 - INFO - preprocess.py - convert_bert_example - 98 - attention_masks: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-06-01 20:53:24,062 - INFO - preprocess.py - convert_bert_example - 99 - token_type_ids: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-06-01 20:53:24,062 - INFO - preprocess.py - convert_bert_example - 100 - labels: 1
+2022-06-01 20:53:24,062 - INFO - preprocess.py - convert_bert_example - 101 - ids：[30, 57, 66, 107]
+. . . 
+```
+
+# Output
 <img src="output/csv/train_chart_uji_1.png" width="400">
 
 - Train
