@@ -90,7 +90,7 @@ def convert_bert_example(ex_idx, example: InputExample, tokenizer: BertTokenizer
     attention_masks = encode_dict['attention_mask']
     token_type_ids = encode_dict['token_type_ids']
 
-    if ex_idx < 6:
+    if ex_idx < 4:
         decode_text = tokenizer.decode(np.array(token_ids)[np.where(np.array(attention_masks) == 1)[0]].tolist())
         logger.info(f"*** {set_type}_example-{ex_idx} ***")
         logger.info(f"text: {decode_text}")
@@ -98,7 +98,7 @@ def convert_bert_example(ex_idx, example: InputExample, tokenizer: BertTokenizer
         logger.info(f"attention_masks: {attention_masks}")
         logger.info(f"token_type_ids: {token_type_ids}")
         logger.info(f"labels: {labels}")
-        logger.info(f"ids：{ids}")
+        logger.info(f"ids: {ids}")
 
     feature = BertFeature(
         # bert inputs
@@ -147,19 +147,14 @@ def get_out(processor, txt_path, args, id2label, mode):
 
     examples = processor.get_examples(raw_examples, mode)
     for i, example in enumerate(examples):
-        # print("==========================")
-        # print(example.text)
-        # print(id2label[example.labels])
-        # print(example.ids)
-        # print("==========================")
-
+    
         logger.info("==========================")
         logger.info(f"example_text : {example.text}")
         logger.info(f"example_id_label : {id2label[example.labels]}")
         logger.info(f"example_id_tags : {example.ids}")
         logger.info("==========================")
 
-        if i == 5:
+        if i == 3:
             break
     out = convert_examples_to_features(examples, args.max_seq_len, args.bert_dir)
 
@@ -180,7 +175,7 @@ if __name__ == '__main__':
     args = config.Args().get_parser()
     args.log_dir = 'output/logs/'
     args.max_seq_len = 128
-    args.bert_dir = 'model/biobert/'
+    args.bert_dir = 'model/BiomedNLP-PubMedBERT/'
     utils.set_logger(os.path.join(args.log_dir, 'preprocess.log'))
     logger.info(vars(args))
 
