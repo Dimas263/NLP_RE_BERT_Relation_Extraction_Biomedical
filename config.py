@@ -13,7 +13,7 @@ class Args:
         parser.add_argument('--output_dir', default='output/checkpoint/',
                             help='the output dir for model checkpoints')
 
-        parser.add_argument('--bert_dir', default='model/biobert/',
+        parser.add_argument('--bert_dir', default='model/BiomedNLP-PubMedBERT/',
                             help='bert dir for uer')
         parser.add_argument('--data_dir', default='input/data/',
                             help='data dir for uer')
@@ -21,16 +21,16 @@ class Args:
                             help='log dir for uer')
 
         # other args
-        parser.add_argument('--num_tags', default=65, type=int,
+        parser.add_argument('--num_tags', default=4, type=int,
                             help='number of tags')
         parser.add_argument('--seed', type=int, default=123, help='random seed')
 
         parser.add_argument('--gpu_ids', type=str, default='0',
-                            help='gpu ids to use, -1 for cpu, "0,1" for multi gpu')
+                            help='gpu ids to use, -1 for cpu, 0 for gpu, "0,1" for multi gpu')
 
         parser.add_argument('--max_seq_len', default=128, type=int)
 
-        parser.add_argument('--eval_batch_size', default=12, type=int)
+        parser.add_argument('--eval_batch_size', default=32, type=int)
 
         parser.add_argument('--swa_start', default=3, type=int,
                             help='the epoch when swa start')
@@ -56,7 +56,7 @@ class Args:
 
         parser.add_argument('--weight_decay', default=0.01, type=float)
 
-        parser.add_argument('--adam_epsilon', default=1e-8, type=float)
+        parser.add_argument('--adam_epsilon', default=1e-12, type=float)
 
         parser.add_argument('--train_batch_size', default=32, type=int)
 
