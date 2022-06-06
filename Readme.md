@@ -1,7 +1,7 @@
 # <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/undefined/external-big-data-smart-technology-flaticons-lineal-color-flat-icons-2.png"/> **NLP Research**
 # **Relation Extraction in Biomedical using Bert-LSTM-CRF model and pytorch**
 ## <img src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/undefined/external-man-avatar-avatar-fauzidea-flat-fauzidea.png"/> **`Dimas Dwi Putra`**
-NLP Research - Bert Relation Extraction in Biomedical.
+<img src="https://img.icons8.com/metro/26/undefined/chevron-right.png"/> NLP Research - Bert Relation Extraction in Biomedical.
 
 # <img src="https://img.icons8.com/color/48/undefined/1-circle--v1.png"/> Config
 ```yaml
@@ -24,7 +24,7 @@ python "main.py" \
 ```
 
 # <img src="https://img.icons8.com/color/48/undefined/2-circle--v1.png"/> Dataset
-[View Directory](input/data/)
+<img src="https://img.icons8.com/fluency/48/undefined/symlink-file.png"/> [View Directory](input/data/)
 
 <img src="input/data/bar_chart.png" width="400">
 
