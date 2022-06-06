@@ -39,22 +39,20 @@ class Trainer:
         self.test_loader = test_loader
         self.model.to(self.device)
 
-    # """
+
     def load_ckp(self, model, optimizer, checkpoint_path):
         checkpoint = torch.load(checkpoint_path)
+        # checkpoint = torch.load(checkpoint_path, map_location=self.device)
         model.load_state_dict(checkpoint['state_dict'])
         optimizer.load_state_dict(checkpoint['optimizer'])
         epoch = checkpoint['epoch']
         loss = checkpoint['loss']
         return model, optimizer, epoch, loss
 
-    # """
 
-    # """
     def save_ckp(self, state, checkpoint_path):
         torch.save(state, checkpoint_path)
 
-    # """
 
     """
     def save_ckp(self, state, is_best, checkpoint_path, best_model_path):
@@ -69,7 +67,7 @@ class Trainer:
     def train(self):
         total_step = len(self.train_loader) * self.args.train_epochs
         global_step = 0
-        eval_step = 100
+        eval_step = 1
         best_dev_micro_f1 = 0.0
         for epoch in range(args.train_epochs):
             for train_step, train_data in enumerate(self.train_loader):
@@ -103,6 +101,7 @@ class Trainer:
                         best_dev_micro_f1 = macro_f1
                         checkpoint_path = os.path.join(self.args.output_dir, 'best.pt')
                         self.save_ckp(checkpoint, checkpoint_path)
+                
 
     def dev(self):
         self.model.eval()
@@ -209,13 +208,11 @@ if __name__ == '__main__':
         id2label[v] = k
     logger.info(label2id)
 
-    # ***=== Call Preprocess ===***
     train_out = preprocess.get_out(processor, 'input/data/train.txt', args, id2label, 'train')
     dev_out = preprocess.get_out(processor, 'input/data/test.txt', args, id2label, 'dev')
     test_out = preprocess.get_out(processor, 'input/data/test.txt', args, id2label, 'test')
-    # ***=== End Call Preprocess ===***
 
-    #
+    
     train_features, train_callback_info = train_out
     train_dataset = dataset.ReDataset(train_features)
     train_sampler = RandomSampler(train_dataset)
@@ -225,7 +222,7 @@ if __name__ == '__main__':
         sampler=train_sampler,
         num_workers=2
     )
-    #
+    
     dev_features, dev_callback_info = dev_out
     dev_dataset = dataset.ReDataset(dev_features)
     dev_loader = DataLoader(
@@ -233,7 +230,7 @@ if __name__ == '__main__':
         batch_size=args.eval_batch_size,
         num_workers=2
     )
-    #
+    
     test_features, test_callback_info = dev_out
     test_dataset = dataset.ReDataset(test_features)
     test_loader = DataLoader(
@@ -244,44 +241,14 @@ if __name__ == '__main__':
 
     trainer = Trainer(args, train_loader, dev_loader, test_loader)
 
-    # ***=== start training ===***
     logger.info('======== Training And Validation========')
     trainer.train()
-    # ***=== end training ===***
-
-    # ***=== start testing ===***
-    logger.info('======== Carry Out Testing========')
+    
+    logger.info('======== Calculate Testing========')
     checkpoint_path = 'output/checkpoint/best.pt'
     total_loss, test_outputs, test_targets = trainer.test(checkpoint_path)
     accuracy, micro_f1, macro_f1 = trainer.get_metrics(test_outputs, test_targets)
     logger.info("【test】 loss：{:.6f} accuracy：{:.4f} micro_f1：{:.4f} macro_f1：{:.4f}".format(total_loss, accuracy, micro_f1, macro_f1))
     report = trainer.get_classification_report(test_outputs, test_targets, labels)
     logger.info(report)
-    # ***=== end testing ===***
 
-    # ***=== start predict ===***
-    logger.info('======== Prediction ========')
-    trainer = Trainer(args, None, None, None)
-    checkpoint_path = 'output/checkpoint/best.pt'
-    tokenizer = BertTokenizer.from_pretrained(args.bert_dir, local_files_only=True, ignore_mismatched_sizes=True)
-
-    with open(os.path.join('input/data/predict.txt'), 'r') as fp:
-        lines = fp.readlines()
-        for line in lines:
-            line = line.strip().split('\t')
-            label = line[0]
-            text = line[1]
-            ids = [int(line[2]), int(line[3]), int(line[4]), int(line[5])]
-            logger.info(text)
-            result = trainer.predict(tokenizer, text, id2label, args, ids)
-            logger.info("predict labels：" + "".join(result))
-            logger.info("true label：" + id2label[int(line[0])])
-            logger.info("==========================")
-
-    #
-    # text = '1	<e1start> Tobacco <e1end>-related <e2start> cancers <e2end> in Madras, India.  	0	25	34	59'
-    text = '<e1start> Tobacco <e1end>-related <e2start> cancers <e2end> in Madras, India.'
-    ids = [0, 25, 34, 59]
-    print('predict labels：', trainer.predict(tokenizer, text, id2label, args, ids))
-    print('true label：', id2label[1])
-    # ***=== end predict ===***
