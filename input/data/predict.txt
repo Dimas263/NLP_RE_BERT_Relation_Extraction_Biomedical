@@ -1,46 +1,23 @@
-1	Halothane is known to oppose <e1start> digitalis <e1end>-induced <e2start> ventricular arrhythmias <e2end>. 	29	56	65	106
-1	Both cases proved to be <e1start> cotton <e1end>-material-induced <e2start> granulomas <e2end>. 	24	48	66	94
-2	The evidence for <e1start> soybean <e1end> products as <e2start> cancer <e2end> preventive agents.  	17	42	55	79
-1	[Mortality trends in <e2start> cancer <e2end> attributable to <e1start> tobacco <e1end> in Mexico].  	62	87	21	45
+0	Halothane is known to oppose <e1start> digitalis <e1end>-induced <e2start> ventricular arrhythmias <e2end>. 	29	56	65	106
+0	Both cases proved to be <e1start> cotton <e1end>-material-induced <e2start> granulomas <e2end>. 	24	48	66	94
+1	The evidence for <e1start> soybean <e1end> products as <e2start> cancer <e2end> preventive agents.  	17	42	55	79
+0	[Mortality trends in <e2start> cancer <e2end> attributable to <e1start> tobacco <e1end> in Mexico].  	62	87	21	45
 3	<e1start> Areca <e1end> nut chewing has a significant association with <e2start> systemic inflammation <e2end>.	0	23	71	110
 3	<e2start> major depression <e2end> (MD) and regular <e1start> tobacco <e1end> use (RU) or nicotine dependence (ND).	52	77	0	34
-2	Benefits of whole <e1start> ginger <e1end> extract in <e2start> prostate cancer <e2end>.  	18	42	54	87
+1	Benefits of whole <e1start> ginger <e1end> extract in <e2start> prostate cancer <e2end>.  	18	42	54	87
 3	<e2start> schizophrenia <e2end> and <e1start> cannabis <e1end> is due to a shared genetic aetiology.	36	62	0	31
-1	These risks may be even higher among <e1start> tobacco <e1end>-related <e2start> cancer <e2end> survivors (TRCS). 	37	62	71	95
-1	Role of Dau c 1 in three different patterns of <e1start> carrot <e1end>-induced <e2start> asthma <e2end>.  	47	71	80	104
-1	<e1start> Tobacco <e1end>-associated <e2start> cancers <e2end> included lung, esophageal, and H/N cancers. 	0	25	37	62
-0	<e1start> Coffee <e1end> consumption not associated with risk of <e2start> pancreas cancer <e2end> in Finland.  	0	24	65	98
-2	Optimal dose of <e1start> garlic <e1end> to inhibit dimethylhydrazine-induced <e2start> colon cancer <e2end>.  	16	40	78	108
+0	These risks may be even higher among <e1start> tobacco <e1end>-related <e2start> cancer <e2end> survivors (TRCS). 	37	62	71	95
+0	Role of Dau c 1 in three different patterns of <e1start> carrot <e1end>-induced <e2start> asthma <e2end>.  	47	71	80	104
+0	<e1start> Tobacco <e1end>-associated <e2start> cancers <e2end> included lung, esophageal, and H/N cancers. 	0	25	37	62
+2	<e1start> Coffee <e1end> consumption not associated with risk of <e2start> pancreas cancer <e2end> in Finland.  	0	24	65	98
+1	Optimal dose of <e1start> garlic <e1end> to inhibit dimethylhydrazine-induced <e2start> colon cancer <e2end>.  	16	40	78	108
 3	<e2start> major depression <e2end> (MD) and regular tobacco use (<e1start> RU <e1end>) or nicotine dependence (ND).	65	85	0	34
-2	Chinese <e1start> green tea <e1end> ameliorates <e2start> lung injury <e2end> in cigarette smoke-exposed rats.  	8	35	48	77
-1	Studies on magnesium's mechanism of action in <e1start> digitalis <e1end>-induced <e2start> arrhythmias <e2end>.  	46	73	82	111
-2	Caffeine and <e1start> coffee <e1end> as therapeutics against <e2start> Alzheimer's disease <e2end>.  	13	37	62	99
+1	Chinese <e1start> green tea <e1end> ameliorates <e2start> lung injury <e2end> in cigarette smoke-exposed rats.  	8	35	48	77
+0	Studies on magnesium's mechanism of action in <e1start> digitalis <e1end>-induced <e2start> arrhythmias <e2end>.  	46	73	82	111
+1	Caffeine and <e1start> coffee <e1end> as therapeutics against <e2start> Alzheimer's disease <e2end>.  	13	37	62	99
 3	recent <e1start> coffee <e1end> drinking and the incidence of <e2start> cardiovascular disease <e2end>.	7	31	62	102
-0	In nonexposed, tobacco-, or <e1start> marijuana <e1end>-smoke-exposed <e2start> breast cancer <e2end> cultures. 	28	55	70	101
-1	Aggressive <e1start> tobacco <e1end> control could avert millions of deaths from <e2start> tuberculosis <e2end>.  	11	36	81	111
-1	She had <e2start> asthma <e2end> when handling raw <e1start> carrots <e1end>. 	51	76	8	32
-1	<e1start> Tobacco <e1end>-associated cancers included lung, <e2start> esophageal, and H/N cancers <e2end>. 	0	25	60	105
+2	In nonexposed, tobacco-, or <e1start> marijuana <e1end>-smoke-exposed <e2start> breast cancer <e2end> cultures. 	28	55	70	101
+0	Aggressive <e1start> tobacco <e1end> control could avert millions of deaths from <e2start> tuberculosis <e2end>.  	11	36	81	111
+0	She had <e2start> asthma <e2end> when handling raw <e1start> carrots <e1end>. 	51	76	8	32
+0	<e1start> Tobacco <e1end>-associated cancers included lung, <e2start> esophageal, and H/N cancers <e2end>. 	0	25	60	105
 3	major depression (<e2start> MD <e2end>) and regular <e1start> tobacco <e1end> use (RU) or nicotine dependence (ND).	52	77	18	38
-2	Nasal congestion and coffee/<e1start> tea <e1end> intake also affected <e2start> xerostomia <e2end>. 	28	49	71	99
-0	Association of <e1start> coffee <e1end> consumption with <e2start> gallbladder disease <e2end>.  	15	39	57	94
-3	<e1start> coffee <e1end> consumption and the risk of <e2start> coronary heart disease <e2end> has been suspected.	0	24	53	93
-0	Effects of smokeless <e1start> tobacco <e1end> use on other <e2start> cancers <e2end> are not clearly demonstrated. 	21	46	60	85
-2	Therefore the minimal optimal dose of <e1start> garlic <e1end> to inhibit <e2start> colon cancer <e2end> was 2.5%. 	38	62	74	104
-0	Consumption of <e1start> black tea <e1end> and <e2start> cancer <e2end> risk: a prospective cohort study.  	15	42	47	71
-1	<e1start> Tobacco <e1end> smoke-induced <e2start> lung cancer <e2end> in animals--a challenge to toxicology (?).  	0	25	40	69
-1	She had <e2start> asthma <e2end> due to raw <e1start> carrot <e1end> ingestion and inhalation. 	44	68	8	32
-2	<e1start> Green tea <e1end> also decreased the number of <e2start> dysplasic lesions <e2end>. 	0	27	57	92
-0	<e1start> Coffee <e1end> consumption and the risk of <e2start> gestational diabetes mellitus <e2end>.  	0	24	53	100
-1	<e1start> Tobacco <e1end>-associated cancers included <e2start> lung, esophageal, and H/N cancers <e2end>. 	0	25	54	105
-3	a relative risk estimate for RC <e1start> garlic <e1end> consumption and <e2start> cancer <e2end> risk.	32	56	73	97
-1	MATERIAL AND METHODS: Patient 1 had <e2start> asthma <e2end> when handling raw <e1start> carrots <e1end>. 	79	104	36	60
-2	Nasal congestion and <e1start> coffee <e1end>/tea intake also affected <e2start> xerostomia <e2end>. 	21	45	71	99
-0	<e1start> Coffee <e1end>, caffeine, and <e2start> cardiovascular disease <e2end> in men.  	0	24	40	80
-0	<e1start> Green tea <e1end> and death from <e2start> pneumonia <e2end> in Japan: the Ohsaki cohort study.  	0	27	43	70
-2	The efficacy of <e1start> Ginkgo biloba <e1end> on cognitive function in <e2start> Alzheimer disease <e2end>.  	16	47	73	108
-1	<e2start> Atrial tachyarrhythmias <e2end> are a common manifestation of <e1start> digitalis <e1end> toxicity. 	72	99	0	41
-3	major depression (<e2start> MD <e2end>) and regular tobacco use (<e1start> RU <e1end>) or nicotine dependence (ND).	65	85	18	38
-0	In nonexposed, <e1start> tobacco <e1end>-, or marijuana-smoke-exposed <e2start> breast cancer <e2end> cultures. 	15	40	70	101
-3	suggestive of population differences in how <e2start> MD <e2end> and <e1start> tobacco <e1end> use inter-relate.	69	94	44	64
-2	CONCLUSION: <e1start> Lespedeza Michx <e1end> was effective on <e2start> MCN <e2end>.  	12	45	63	84
-0	<e1start> Coffee <e1end> consumption and risk of <e2start> rheumatoid arthritis <e2end>.  	0	24	49	87
