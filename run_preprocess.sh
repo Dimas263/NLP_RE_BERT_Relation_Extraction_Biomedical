@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-python preprocess.py \
---bert_dir="model/biobert/" \
+python "preprocess.py" \
+--bert_dir="model/BiomedNLP-PubMedBERT/" \
 --data_dir="input/data/" \
 --log_dir="output/logs/" \
---output_dir="input/checkpoint/" \
+--output_dir="output/checkpoint/" \
 --num_tags=4 \
 --seed=123 \
---gpu_ids="-1" \
+--gpu_ids="0" \
 --max_seq_len=128 \
---lr=3e-5 \
---other_lr=3e-4 \
---train_batch_size=32 \
---train_epochs=100 \
---eval_batch_size=32 \
---dropout_prob=0.3 \
+--lr=1e-5 \
+--other_lr=1e-4 \
+--train_batch_size=64 \
+--train_epochs=500 \
+--eval_batch_size=64 \
+--dropout_prob=0.1 \
