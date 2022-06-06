@@ -44,17 +44,19 @@ if __name__ == '__main__':
     args = config.Args().get_parser()
     args.log_dir = 'output/logs/'
     args.max_seq_len = 128
-    args.bert_dir = 'model/biobert/'
+    args.bert_dir = 'model/BiomedNLP-PubMedBERT/'
 
     processor = Processor()
 
     label2id = {}
     id2label = {}
+    
     with open('input/data/rel_dict.json', 'r') as fp:
         labels = json.loads(fp.read())
     for k, v in labels.items():
         label2id[k] = v
         id2label[v] = k
+        
     print(label2id)
 
     train_out = get_out(processor, 'input/data/train.txt', args, id2label, 'train')
@@ -80,7 +82,7 @@ if __name__ == '__main__':
     #     print(data['ids'])
     #     break
 
-    args.train_batch_size = 32
+    # args.train_batch_size = 32
     train_dataset = ReDataset(train_features)
     train_sampler = RandomSampler(train_dataset)
     train_loader = DataLoader(dataset=train_dataset,
