@@ -5,6 +5,16 @@
 `git clone https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext`
 
 ```yaml
+config.json
+flax_model.msgpack
+pytorch_model.bin
+tokenizer_config.json
+vocab.txt
+```
+
+config.json
+
+```json
 {
   "architectures": [
     "BertForMaskedLM"
@@ -38,6 +48,7 @@ vocab.txt
 ```
 
 config.json
+
 ```json
 {
   "architectures": [
