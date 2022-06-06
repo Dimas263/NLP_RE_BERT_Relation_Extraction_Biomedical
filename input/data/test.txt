@@ -1,11 +1,11 @@
-1	Its effect on <e1start> digitalis <e1end>-caused <e2start> atrial arrhythmias <e2end> is unknown. 	14	41	49	85
-0	However, the growth rate of <e2start> tumors <e2end> was not markedly inhibited by <e1start> garlic <e1end>. 	83	107	28	52
-1	<e1start> Tobacco <e1end>-related <e2start> cancers <e2end> in Madras, India.  	0	25	34	59
-1	The importance of the <e1start> pecan <e1end> tree pollen in <e2start> allergic <e2end> manifestations.  	22	45	61	87
-0	Components of <e1start> olive <e1end> oil and chemoprevention of <e2start> colorectal cancer <e2end>.  	14	37	65	100
-0	It is unlikely that <e1start> garlic <e1end> is useful in preventing <e2start> cardiovascular disease <e2end>.  	20	44	69	109
-2	It is known that the risk of <e2start> DM II <e2end> can be decreased by <e1start> coffee <e1end> consumption. 	73	97	29	52
-2	<e2start> Cancer <e2end> chemoprevention by <e1start> pomegranate <e1end>: laboratory and clinical evidence.  	44	73	0	24
-2	<e1start> Green tea <e1end> is now recognized as the most effective <e2start> cancer <e2end> preventive beverage. 	0	27	68	92
-1	<e1start> Tobacco <e1end>-associated cancers included lung, esophageal, and <e2start> H/N cancers <e2end>. 	0	25	76	105
+0	Its effect on <e1start> digitalis <e1end>-caused <e2start> atrial arrhythmias <e2end> is unknown. 	14	41	49	85
+2	However, the growth rate of <e2start> tumors <e2end> was not markedly inhibited by <e1start> garlic <e1end>. 	83	107	28	52
+0	<e1start> Tobacco <e1end>-related <e2start> cancers <e2end> in Madras, India.  	0	25	34	59
+0	The importance of the <e1start> pecan <e1end> tree pollen in <e2start> allergic <e2end> manifestations.  	22	45	61	87
+2	Components of <e1start> olive <e1end> oil and chemoprevention of <e2start> colorectal cancer <e2end>.  	14	37	65	100
+2	It is unlikely that <e1start> garlic <e1end> is useful in preventing <e2start> cardiovascular disease <e2end>.  	20	44	69	109
+1	It is known that the risk of <e2start> DM II <e2end> can be decreased by <e1start> coffee <e1end> consumption. 	73	97	29	52
+1	<e2start> Cancer <e2end> chemoprevention by <e1start> pomegranate <e1end>: laboratory and clinical evidence.  	44	73	0	24
+1	<e1start> Green tea <e1end> is now recognized as the most effective <e2start> cancer <e2end> preventive beverage. 	0	27	68	92
+0	<e1start> Tobacco <e1end>-associated cancers included lung, esophageal, and <e2start> H/N cancers <e2end>. 	0	25	76	105
 3	an individual's burden of <e2start> schizophrenia <e2end> risk alleles and use of <e1start> cannabis <e1end>.	82	108	26	57
