@@ -3,8 +3,8 @@
 ## <img src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/undefined/external-man-avatar-avatar-fauzidea-flat-fauzidea.png"/> **`Dimas Dwi Putra`**
 <img src="https://img.icons8.com/metro/26/undefined/chevron-right.png"> NLP Research - Bert Relation Extraction in Biomedical.
 
-[Notebook 1.ipynb](BiomedNLP_PubMedBERT_Notebook.ipynb)<br>
-[Notebook 2.ipynb](Biobert_Notebook.ipynb)
+<img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 1.ipynb](BiomedNLP_PubMedBERT_Notebook.ipynb)<br>
+<img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 2.ipynb](Biobert_Notebook.ipynb)
 
 # <img src="https://img.icons8.com/color/48/undefined/1-circle--v1.png"/> Config
 ```yaml
@@ -31,15 +31,15 @@ python "main.py" \
 
 <img src="input/data/bar_chart.png" width="400">
 
-Dictionary
+<img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> Dictionary
 ```json
 {"Cause_of_disease": 0, "Treatment_of_disease": 1, "Negative": 2, "Association": 3}
 ```
-Data Preprocessing
+<img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> Data Preprocessing
 
 <img src="input/data/data-preprocessing.png" width="600">
 
-Example
+<img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> Example
 ```yaml
 id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_entity1	end_entity1	start_entity2	end_entity2
 ```
