@@ -3,6 +3,9 @@
 ## <img src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/undefined/external-man-avatar-avatar-fauzidea-flat-fauzidea.png"/> **`Dimas Dwi Putra`**
 <img src="https://img.icons8.com/metro/26/undefined/chevron-right.png"> NLP Research - Bert Relation Extraction in Biomedical.
 
+[Notebook 1.ipynb](BiomedNLP_PubMedBERT_Notebook.ipynb)<br>
+[Notebook 2.ipynb](Biobert_Notebook.ipynb)
+
 # <img src="https://img.icons8.com/color/48/undefined/1-circle--v1.png"/> Config
 ```yaml
 #!/usr/bin/env bash
@@ -112,6 +115,7 @@ config.json
 # <img src="https://img.icons8.com/color/48/undefined/5-circle--v1.png"/> Output
 
 <img src="output/visualization/BiomedNLP-PubMedBERT-train.png" width="300"><img src="output/visualization/BiomedNLP-PubMedBERT-dev.png" width="300">
+
 [LOAD MORE.. ](output/Visualization)
 
 - Train
