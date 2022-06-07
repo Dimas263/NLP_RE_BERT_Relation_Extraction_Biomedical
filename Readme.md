@@ -1,7 +1,7 @@
 # <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/undefined/external-big-data-smart-technology-flaticons-lineal-color-flat-icons-2.png"/> **NLP Research**
 # **Relation Extraction in Biomedical using Bert-LSTM-CRF model and pytorch**
 ## <img src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/undefined/external-man-avatar-avatar-fauzidea-flat-fauzidea.png"/> **`Dimas Dwi Putra`**
-<img src="https://img.icons8.com/metro/26/undefined/chevron-right.png"/> NLP Research - Bert Relation Extraction in Biomedical.
+<img src="https://img.icons8.com/metro/26/undefined/chevron-right.png"> NLP Research - Bert Relation Extraction in Biomedical.
 
 # <img src="https://img.icons8.com/color/48/undefined/1-circle--v1.png"/> Config
 ```yaml
@@ -36,7 +36,7 @@ Data Preprocessing
 
 <img src="input/data/data-preprocessing.png" width="600">
 
-example
+Example
 ```yaml
 id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_entity1	end_entity1	start_entity2	end_entity2
 ```
@@ -54,11 +54,40 @@ id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_ent
 ```
 
 # <img src="https://img.icons8.com/color/48/undefined/3-circle--v1.png"/> Model input
-[View Directory](model/)
-
-# BiomedNLP-PubMedBERT
+<img src="https://img.icons8.com/fluency/48/undefined/symlink-file.png"/> [View Directory](model/)
 
 `git clone https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext`
+
+```yaml
+config.json
+flax_model.msgpack
+pytorch_model.bin
+special_tokens_map.json
+tokenizer_config.json
+vocab.txt
+```
+config.json
+
+```json
+{
+  "architectures": [
+      "BertForMaskedLM"
+   ],
+   "model_type": "bert",
+   "attention_probs_dropout_prob": 0.1,
+   "hidden_act": "gelu",
+   "hidden_dropout_prob": 0.1,
+   "hidden_size": 768,
+   "initializer_range": 0.02,
+   "intermediate_size": 3072,
+   "max_position_embeddings": 512,
+   "num_attention_heads": 12,
+   "num_hidden_layers": 12,
+   "type_vocab_size": 2,
+   "vocab_size": 30522
+}
+```
+
 
 ## <img src="https://img.icons8.com/color/48/undefined/4-circle--v1.png"/> Preprocessing
 ```yaml
@@ -78,10 +107,12 @@ id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_ent
 2022-06-04 22:02:27,164 - INFO - preprocess.py - convert_bert_example - 101 - ids: [30, 57, 66, 107]
 . . . 
 ```
+[LOAD MORE..](output/logs)
 
 # <img src="https://img.icons8.com/color/48/undefined/5-circle--v1.png"/> Output
-# BiomedNLP-PubMedBERT
+
 <img src="output/visualization/BiomedNLP-PubMedBERT-train.png" width="300"><img src="output/visualization/BiomedNLP-PubMedBERT-dev.png" width="300">
+[LOAD MORE.. ](output/Visualization)
 
 - Train
 ```yaml
@@ -115,6 +146,7 @@ Treatment_of_disease       0.50      0.67      0.57         3
            macro avg       0.79        0.77     0.77         11
         weighted avg       0.77        0.73     0.74         11
 ```
+[LOAD MORE.. ](output/logs)
 
 - Predict
 ```yaml
@@ -142,9 +174,10 @@ Treatment_of_disease       0.50      0.67      0.57         3
 2022-06-06 17:48:40,109 - INFO - predict.py - <module> - 256 - ==========================
 ...
 ```
+[LOAD MORE.. ](output/logs)
 
 # <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Model output
-[view model](https://drive.google.com/drive/folders/1_xUN_FlX9-4kt_CYCnf-gHwJh7G6k6qg?usp=sharing)
+<img src="https://img.icons8.com/fluency/48/undefined/symlink-file.png"/> [view model](https://drive.google.com/drive/folders/1_xUN_FlX9-4kt_CYCnf-gHwJh7G6k6qg?usp=sharing)
 
 `Best.pt`
-model created by pytorch
+model created by pytorch after Train and Validation 
