@@ -188,4 +188,4 @@ Treatment_of_disease       0.50      0.67      0.57         3
 model created by pytorch after Train and Validation 
 
 # <img src="https://img.icons8.com/color/48/undefined/7-circle--v1.png"/> Summary
-<img src="https://img.icons8.com/color/48/undefined/symlink-file.png"/> [view Directory](output/summary)
+<img src="https://img.icons8.com/fluency/48/undefined/symlink-file.png"> [view Directory](output/summary)
