@@ -117,7 +117,7 @@ config.json
 
 <img src="output/visualization/BiomedNLP-PubMedBERT-train.png" width="300"><img src="output/visualization/BiomedNLP-PubMedBERT-dev.png" width="300">
 
-[LOAD MORE.. ](output/Visualization)
+[LOAD MORE.. ](output/visualization)
 
 - Train
 ```yaml
@@ -186,3 +186,6 @@ Treatment_of_disease       0.50      0.67      0.57         3
 
 `Best.pt`<br>
 model created by pytorch after Train and Validation 
+
+# <img src="https://img.icons8.com/color/48/undefined/7-circle--v1.png"/> Summary
+<img src="https://img.icons8.com/color/48/undefined/symlink-file.png"/> [view Directory](output/summary)
