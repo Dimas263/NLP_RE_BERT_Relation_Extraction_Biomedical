@@ -3,8 +3,9 @@
 ## <img src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/undefined/external-man-avatar-avatar-fauzidea-flat-fauzidea.png"/> **`Dimas Dwi Putra`**
 <img src="https://img.icons8.com/metro/26/undefined/chevron-right.png"> NLP Research - Bert Relation Extraction in Biomedical.
 
-<img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 1.ipynb](BiomedNLP_PubMedBERT_Notebook.ipynb)<br>
-<img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 2.ipynb](Biobert_Notebook.ipynb)
+<img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 1.ipynb](BiomedNLP_PubMedBERT_Notebook.ipynb)<br>`Created using BiomedNLP-PubMedBERT Pre-Trained Model`<br>
+
+<img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 2.ipynb](Biobert_Notebook.ipynb)<br>`Created using Biobert Pre-Trained Model`
 
 # <img src="https://img.icons8.com/color/48/undefined/1-circle--v1.png"/> Config
 ```yaml
@@ -183,5 +184,5 @@ Treatment_of_disease       0.50      0.67      0.57         3
 # <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Model output
 <img src="https://img.icons8.com/fluency/48/undefined/symlink-file.png"/> [view model](https://drive.google.com/drive/folders/1_xUN_FlX9-4kt_CYCnf-gHwJh7G6k6qg?usp=sharing)
 
-`Best.pt`
+`Best.pt`<br>
 model created by pytorch after Train and Validation 
