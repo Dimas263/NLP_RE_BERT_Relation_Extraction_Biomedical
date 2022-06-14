@@ -92,13 +92,13 @@ def convert_bert_example(ex_idx, example: InputExample, tokenizer: BertTokenizer
 
     if ex_idx < 4:
         decode_text = tokenizer.decode(np.array(token_ids)[np.where(np.array(attention_masks) == 1)[0]].tolist())
-        logger.info(f"*** {set_type}_example-{ex_idx} ***")
-        logger.info(f"text: {decode_text}")
-        logger.info(f"token_ids: {token_ids}")
-        logger.info(f"attention_masks: {attention_masks}")
-        logger.info(f"token_type_ids: {token_type_ids}")
-        logger.info(f"labels: {labels}")
-        logger.info(f"ids: {ids}")
+        # logger.info(f"*** {set_type}_example-{ex_idx} ***")
+        # logger.info(f"text: {decode_text}")
+        # logger.info(f"token_ids: {token_ids}")
+        # logger.info(f"attention_masks: {attention_masks}")
+        # logger.info(f"token_type_ids: {token_type_ids}")
+        # logger.info(f"labels: {labels}")
+        # logger.info(f"ids: {ids}")
 
     feature = BertFeature(
         # bert inputs
@@ -117,7 +117,7 @@ def convert_examples_to_features(examples, max_seq_len, bert_dir):
     features = []
     callback_info = []
 
-    logger.info(f'Convert {len(examples)} examples to features')
+    # logger.info(f'Convert {len(examples)} examples to features')
 
     for i, example in enumerate(examples):
         feature, tmp_callback = convert_bert_example(
@@ -131,7 +131,7 @@ def convert_examples_to_features(examples, max_seq_len, bert_dir):
 
         features.append(feature)
         callback_info.append(tmp_callback)
-    logger.info(f'Build {len(features)} features')
+    # logger.info(f'Build {len(features)} features')
 
     out = (features,)
 
@@ -148,11 +148,11 @@ def get_out(processor, txt_path, args, id2label, mode):
     examples = processor.get_examples(raw_examples, mode)
     for i, example in enumerate(examples):
     
-        logger.info("==========================")
-        logger.info(f"example_text : {example.text}")
-        logger.info(f"example_id_label : {id2label[example.labels]}")
-        logger.info(f"example_id_tags : {example.ids}")
-        logger.info("==========================")
+        # logger.info("==========================")
+        # logger.info(f"example_text : {example.text}")
+        # logger.info(f"example_id_label : {id2label[example.labels]}")
+        # logger.info(f"example_id_tags : {example.ids}")
+        # logger.info("==========================")
 
         if i == 3:
             break
@@ -177,7 +177,7 @@ if __name__ == '__main__':
     args.max_seq_len = args.max_seq_len 
     args.bert_dir = args.bert_dir
     utils.set_logger(os.path.join(args.preprocess_log_dir))
-    logger.info(vars(args))
+    # logger.info(vars(args))
 
     processor = Processor()
 

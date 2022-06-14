@@ -1,23 +1,19 @@
-0	Halothane is known to oppose <e1start> digitalis <e1end>-induced <e2start> ventricular arrhythmias <e2end>. 	29	56	65	106
-0	Both cases proved to be <e1start> cotton <e1end>-material-induced <e2start> granulomas <e2end>. 	24	48	66	94
-1	The evidence for <e1start> soybean <e1end> products as <e2start> cancer <e2end> preventive agents.  	17	42	55	79
-0	[Mortality trends in <e2start> cancer <e2end> attributable to <e1start> tobacco <e1end> in Mexico].  	62	87	21	45
-3	<e1start> Areca <e1end> nut chewing has a significant association with <e2start> systemic inflammation <e2end>.	0	23	71	110
-3	<e2start> major depression <e2end> (MD) and regular <e1start> tobacco <e1end> use (RU) or nicotine dependence (ND).	52	77	0	34
-1	Benefits of whole <e1start> ginger <e1end> extract in <e2start> prostate cancer <e2end>.  	18	42	54	87
-3	<e2start> schizophrenia <e2end> and <e1start> cannabis <e1end> is due to a shared genetic aetiology.	36	62	0	31
-0	These risks may be even higher among <e1start> tobacco <e1end>-related <e2start> cancer <e2end> survivors (TRCS). 	37	62	71	95
-0	Role of Dau c 1 in three different patterns of <e1start> carrot <e1end>-induced <e2start> asthma <e2end>.  	47	71	80	104
-0	<e1start> Tobacco <e1end>-associated <e2start> cancers <e2end> included lung, esophageal, and H/N cancers. 	0	25	37	62
-2	<e1start> Coffee <e1end> consumption not associated with risk of <e2start> pancreas cancer <e2end> in Finland.  	0	24	65	98
-1	Optimal dose of <e1start> garlic <e1end> to inhibit dimethylhydrazine-induced <e2start> colon cancer <e2end>.  	16	40	78	108
-3	<e2start> major depression <e2end> (MD) and regular tobacco use (<e1start> RU <e1end>) or nicotine dependence (ND).	65	85	0	34
-1	Chinese <e1start> green tea <e1end> ameliorates <e2start> lung injury <e2end> in cigarette smoke-exposed rats.  	8	35	48	77
-0	Studies on magnesium's mechanism of action in <e1start> digitalis <e1end>-induced <e2start> arrhythmias <e2end>.  	46	73	82	111
-1	Caffeine and <e1start> coffee <e1end> as therapeutics against <e2start> Alzheimer's disease <e2end>.  	13	37	62	99
-3	recent <e1start> coffee <e1end> drinking and the incidence of <e2start> cardiovascular disease <e2end>.	7	31	62	102
-2	In nonexposed, tobacco-, or <e1start> marijuana <e1end>-smoke-exposed <e2start> breast cancer <e2end> cultures. 	28	55	70	101
-0	Aggressive <e1start> tobacco <e1end> control could avert millions of deaths from <e2start> tuberculosis <e2end>.  	11	36	81	111
-0	She had <e2start> asthma <e2end> when handling raw <e1start> carrots <e1end>. 	51	76	8	32
-0	<e1start> Tobacco <e1end>-associated cancers included lung, <e2start> esophageal, and H/N cancers <e2end>. 	0	25	60	105
-3	major depression (<e2start> MD <e2end>) and regular <e1start> tobacco <e1end> use (RU) or nicotine dependence (ND).	52	77	18	38
+0	OBJECTIVE: To study the role of pecan tree pollen in the development of allergy . 	32	37	72	79
+0	 Garlic consumption and cancer prevention: meta-analyses of colorectal and stomach cancers . 	1	7	75	90
+1	Patients with anaphylaxis to pea can have peanut allergy caused by cross-reactive IgE to vicilin (Ara h 1). 	29	32	42	56
+0	Genetic predisposition to schizophrenia associated with increased use of cannabis . 	73	81	26	39
+2	Efficacy of cancer prevention by high-selenium garlic is primarily dependent on the action of selenium. 	47	53	12	18
+0	Mutagen sensitivity, tobacco smoking and breast cancer risk: a case-control study. 	21	28	41	54
+2	 HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer. 	1	4	77	85
+2	Significant cancer protection was observed with treatment by the Se- garlic extract (at 3 p.p.m. 	69	75	12	18
+1	Our data also suggest that bleomycin sensitivity may modulate the effect of tobacco smoking on breast cancer risk. 	76	83	95	108
+2	Animals given AFB1 together with fresh garlic or garlic oil showed a significant reduction in tumor incidence. 	39	45	94	99
+0	The tumor incidences were 3% and 9% in animals given AFB1 plus garlic and AFB1 plus garlic oil, respectively. 	63	69	4	9
+1	 Tobacco smoke carcinogens, DNA damage and p53 mutations in smoking-associated cancers . 	1	8	79	86
+1	Its effect on digitalis -caused atrial arrhythmias is unknown. 	14	23	32	50
+2	A lipid-soluble red ginseng extract inhibits the growth of human lung tumor xenografts in nude mice. 	20	27	65	75
+2	CONCLUSION: Lespedeza Michx was effective on MCN . 	12	27	45	48
+2	Thus smaller tumor volume and longer survival time were found in the garlic group than in the controls (p < 0.01). 	69	75	13	18
+2	Preventive action of garlic on aflatoxin B1-induced carcinogenesis in the toad Bufo regularis. 	21	27	52	66
+2	Caffeine and coffee as therapeutics against Alzheimer's disease . 	13	19	44	63
+1	An excess risk of dying of lung cancer and heart diseases probably reflects a high tobacco consumption. 	83	90	43	57

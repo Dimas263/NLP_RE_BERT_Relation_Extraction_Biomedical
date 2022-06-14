@@ -4,7 +4,7 @@ import csv
 x = []
 y = []
 
-with open('output/visualization/biobert-train.csv', 'r') as csvfile:
+with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/visualization/biobert-train.csv', 'r') as csvfile:
     lines = csv.reader(csvfile, delimiter=',')
     for row in lines:
         x.append(int(row[2]))
@@ -20,4 +20,4 @@ plt.title('Training', fontsize=20)
 plt.grid()
 plt.legend()
 # plt.show()
-plt.savefig('output/visualization/biobert-train.png')
+plt.savefig('drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/visualization/biobert-train.png')

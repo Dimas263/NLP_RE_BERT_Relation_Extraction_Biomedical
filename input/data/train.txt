@@ -1,46 +1,187 @@
-0	Halothane is known to oppose <e1start> digitalis <e1end>-induced <e2start> ventricular arrhythmias <e2end>. 	29	56	65	106
-0	Both cases proved to be <e1start> cotton <e1end>-material-induced <e2start> granulomas <e2end>. 	24	48	66	94
-1	The evidence for <e1start> soybean <e1end> products as <e2start> cancer <e2end> preventive agents.  	17	42	55	79
-0	[Mortality trends in <e2start> cancer <e2end> attributable to <e1start> tobacco <e1end> in Mexico].  	62	87	21	45
-3	<e1start> Areca <e1end> nut chewing has a significant association with <e2start> systemic inflammation <e2end>.	0	23	71	110
-3	<e2start> major depression <e2end> (MD) and regular <e1start> tobacco <e1end> use (RU) or nicotine dependence (ND).	52	77	0	34
-1	Benefits of whole <e1start> ginger <e1end> extract in <e2start> prostate cancer <e2end>.  	18	42	54	87
-3	<e2start> schizophrenia <e2end> and <e1start> cannabis <e1end> is due to a shared genetic aetiology.	36	62	0	31
-0	These risks may be even higher among <e1start> tobacco <e1end>-related <e2start> cancer <e2end> survivors (TRCS). 	37	62	71	95
-0	Role of Dau c 1 in three different patterns of <e1start> carrot <e1end>-induced <e2start> asthma <e2end>.  	47	71	80	104
-0	<e1start> Tobacco <e1end>-associated <e2start> cancers <e2end> included lung, esophageal, and H/N cancers. 	0	25	37	62
-2	<e1start> Coffee <e1end> consumption not associated with risk of <e2start> pancreas cancer <e2end> in Finland.  	0	24	65	98
-1	Optimal dose of <e1start> garlic <e1end> to inhibit dimethylhydrazine-induced <e2start> colon cancer <e2end>.  	16	40	78	108
-3	<e2start> major depression <e2end> (MD) and regular tobacco use (<e1start> RU <e1end>) or nicotine dependence (ND).	65	85	0	34
-1	Chinese <e1start> green tea <e1end> ameliorates <e2start> lung injury <e2end> in cigarette smoke-exposed rats.  	8	35	48	77
-0	Studies on magnesium's mechanism of action in <e1start> digitalis <e1end>-induced <e2start> arrhythmias <e2end>.  	46	73	82	111
-1	Caffeine and <e1start> coffee <e1end> as therapeutics against <e2start> Alzheimer's disease <e2end>.  	13	37	62	99
-3	recent <e1start> coffee <e1end> drinking and the incidence of <e2start> cardiovascular disease <e2end>.	7	31	62	102
-2	In nonexposed, tobacco-, or <e1start> marijuana <e1end>-smoke-exposed <e2start> breast cancer <e2end> cultures. 	28	55	70	101
-0	Aggressive <e1start> tobacco <e1end> control could avert millions of deaths from <e2start> tuberculosis <e2end>.  	11	36	81	111
-0	She had <e2start> asthma <e2end> when handling raw <e1start> carrots <e1end>. 	51	76	8	32
-0	<e1start> Tobacco <e1end>-associated cancers included lung, <e2start> esophageal, and H/N cancers <e2end>. 	0	25	60	105
-3	major depression (<e2start> MD <e2end>) and regular <e1start> tobacco <e1end> use (RU) or nicotine dependence (ND).	52	77	18	38
-1	Nasal congestion and coffee/<e1start> tea <e1end> intake also affected <e2start> xerostomia <e2end>. 	28	49	71	99
-2	Association of <e1start> coffee <e1end> consumption with <e2start> gallbladder disease <e2end>.  	15	39	57	94
-3	<e1start> coffee <e1end> consumption and the risk of <e2start> coronary heart disease <e2end> has been suspected.	0	24	53	93
-2	Effects of smokeless <e1start> tobacco <e1end> use on other <e2start> cancers <e2end> are not clearly demonstrated. 	21	46	60	85
-1	Therefore the minimal optimal dose of <e1start> garlic <e1end> to inhibit <e2start> colon cancer <e2end> was 2.5%. 	38	62	74	104
-2	Consumption of <e1start> black tea <e1end> and <e2start> cancer <e2end> risk: a prospective cohort study.  	15	42	47	71
-0	<e1start> Tobacco <e1end> smoke-induced <e2start> lung cancer <e2end> in animals--a challenge to toxicology (?).  	0	25	40	69
-0	She had <e2start> asthma <e2end> due to raw <e1start> carrot <e1end> ingestion and inhalation. 	44	68	8	32
-1	<e1start> Green tea <e1end> also decreased the number of <e2start> dysplasic lesions <e2end>. 	0	27	57	92
-2	<e1start> Coffee <e1end> consumption and the risk of <e2start> gestational diabetes mellitus <e2end>.  	0	24	53	100
-0	<e1start> Tobacco <e1end>-associated cancers included <e2start> lung, esophageal, and H/N cancers <e2end>. 	0	25	54	105
-3	a relative risk estimate for RC <e1start> garlic <e1end> consumption and <e2start> cancer <e2end> risk.	32	56	73	97
-0	MATERIAL AND METHODS: Patient 1 had <e2start> asthma <e2end> when handling raw <e1start> carrots <e1end>. 	79	104	36	60
-1	Nasal congestion and <e1start> coffee <e1end>/tea intake also affected <e2start> xerostomia <e2end>. 	21	45	71	99
-2	<e1start> Coffee <e1end>, caffeine, and <e2start> cardiovascular disease <e2end> in men.  	0	24	40	80
-2	<e1start> Green tea <e1end> and death from <e2start> pneumonia <e2end> in Japan: the Ohsaki cohort study.  	0	27	43	70
-1	The efficacy of <e1start> Ginkgo biloba <e1end> on cognitive function in <e2start> Alzheimer disease <e2end>.  	16	47	73	108
-0	<e2start> Atrial tachyarrhythmias <e2end> are a common manifestation of <e1start> digitalis <e1end> toxicity. 	72	99	0	41
-3	major depression (<e2start> MD <e2end>) and regular tobacco use (<e1start> RU <e1end>) or nicotine dependence (ND).	65	85	18	38
-2	In nonexposed, <e1start> tobacco <e1end>-, or marijuana-smoke-exposed <e2start> breast cancer <e2end> cultures. 	15	40	70	101
-3	suggestive of population differences in how <e2start> MD <e2end> and <e1start> tobacco <e1end> use inter-relate.	69	94	44	64
-1	CONCLUSION: <e1start> Lespedeza Michx <e1end> was effective on <e2start> MCN <e2end>.  	12	45	63	84
-2	<e1start> Coffee <e1end> consumption and risk of <e2start> rheumatoid arthritis <e2end>.  	0	24	49	87
+0	However, more studies need to further explore the roles of vitex agnus castus in fracture repair processes. 	59	77	81	89
+0	 Allanblackia monticola (75-300 mg/kg) did not cause significant modification of the oedema induced by serotonin. 	1	23	85	91
+2	CONCLUSIONS: Moderate pre-pregnancy caffeinated coffee consumption may have a protective association with GDM . 	48	54	106	109
+0	 Green tea and death from pneumonia in Japan: the Ohsaki cohort study. 	1	10	26	35
+1	 Tobacco -related oral squamous cell carcinoma is a common malignancy in Asian people. 	1	8	18	46
+0	 KRG treatment reversed abnormal locomotor activity and sensitivity to electric shock to control level. 	1	4	24	51
+0	Exposure to environmental tobacco smoke generally showed little relation to lung cancer risk. 	26	33	76	87
+1	CONCLUSIONS: Tobacco smoking may enhance the risk of developing chronic pancreatitis . 	13	20	72	84
+0	OBJECTIVE: We examined the association between green tea consumption and death from pneumonia in humans. 	47	56	84	93
+1	 Tobacco -related cancer mortality: projections for different geographical regions in Switzerland. 	1	8	18	24
+0	The continuation to ND given RU differed considerably between cigarette and snus users. 	29	31	20	22
+2	Curcumin, alone and in combination with tea , significantly inhibited the angiogenesis in papilloma and SCC . 	40	43	104	107
+2	Epidemiologic and clinical studies suggest that tomato consumption may reduce the risk of cancer . 	48	54	90	96
+1	Persistent cigarette smoking and other tobacco use after a tobacco -related cancer diagnosis. 	39	46	76	82
+1	Aggressive tobacco control could avert millions of deaths from tuberculosis . 	11	18	63	75
+2	 Zingiber officinale Mitigates Brain Damage and Improves Memory Impairment in Focal Cerebral Ischemic Rat. 	1	20	57	74
+2	BACKGROUND: Epidemiologic studies suggest that coffee use might protect against colorectal cancer . 	47	53	80	97
+2	 Tea alone and in combination with curcumin significantly increased the apoptotic index in dysplasia and SCC. 	1	4	91	100
+0	RESULTS: The results suggest modest correlations between MD and RU , and between MD and ND. 	64	66	57	59
+0	We examined the relationship between coffee consumption and the risk of gestational diabetes mellitus [ GDM ]. 	37	43	104	107
+0	Nevertheless, there is a growing interest in studying the role of olive oil phenolics in carcinogenesis . 	66	71	89	103
+2	 Zingiber officinale Mitigates Brain Damage and Improves Memory Impairment in Focal Cerebral Ischemic Rat. 	1	20	84	101
+0	EEA-1 and EEA-2 did not induce diarrhea as a side effect, but senna induced severe diarrhea. 	62	67	31	39
+0	Effects of Ginkgo biloba on exhaled nasal nitric oxide during normobaric hypoxia in humans. 	11	24	62	80
+0	Effects of smokeless tobacco use on other cancers are not clearly demonstrated. 	21	28	42	49
+1	The importance of the pecan tree pollen in allergic manifestations. 	22	27	43	51
+1	 Tobacco smoke-induced lung cancer in animals--a challenge to toxicology (?). 	1	8	23	34
+1	The consumption of coffee is a self-reinforcing behavior, and caffeine dependence and addiction are common. 	19	25	86	95
+2	CONCLUSION: Coffee drinking has an inverse and graded association with the risk of liver cancer . 	12	18	83	95
+0	 Garlic consumption and cancer prevention: meta-analyses of colorectal and stomach cancers. 	1	7	24	30
+2	BACKGROUND: Consumption of Plantago ovata may protect against colorectal cancer . 	27	41	62	79
+0	 Coffee consumption and risk of type 2 diabetes, cardiovascular diseases, and cancer . 	1	7	78	84
+2	CONCLUSIONS: Our results show an inverse trend between the consumption of P ovata and colorectal cancer mortality. 	74	81	86	103
+2	Curcumin, alone and in combination with tea , significantly inhibited the angiogenesis in papilloma and SCC. 	40	43	90	99
+3	Eighteen studies reported a relative risk estimate for RC garlic consumption and cancer risk. 	58	64	81	87
+2	 Onion also produced a significant reduction in hyperglycemic status of diabetic animals. 	1	6	48	61
+1	The gap in tobacco -related cancer mortality rates between younger and older males seems to be shrinking. 	11	18	28	34
+2	The incidence of stomach cancer is lower in individuals and populations with high Allium vegetable intakes. 	82	88	17	31
+2	[Effectiveness of Oleum menthae piperitae and paracetamol in therapy of headache of the tension type]. 	24	41	72	80
+2	Fiber-enriched wheat bran reduced bile acid concentrations significantly in patients with gastric ulcer disease . 	15	20	90	111
+2	The evidence for soybean products as cancer preventive agents. 	17	24	37	43
+0	 Coffee consumption not associated with risk of pancreas cancer in Finland. 	1	7	48	63
+1	 Tobacco -related oral squamous cell carcinoma is a common malignancy in Asian people. 	1	8	59	69
+0	The putative association between P ovata consumption and mortality from colorectal cancer was then evaluated. 	33	40	72	89
+0	Overall, our study provides no evidence that tobacco use increases the risk of CSCC . 	45	52	79	83
+0	We used structural equation modeling to examine the relationship between MD, RU, and ND given RU . 	77	79	85	87
+2	BACKGROUND: Dietary wheat bran protects against colon cancer , but the mechanism(s) of this effect is not known. 	20	25	48	60
+0	No data are available on the association between green tea consumption and the risk of pneumonia in humans. 	49	58	87	96
+2	Optimal dose of garlic to inhibit dimethylhydrazine-induced colon cancer . 	16	22	60	72
+0	OBJECTIVE: To determine the lipid-lowering effect of garlic powder tablets in patients with hypercholesterolemia . 	53	59	92	112
+2	This result showed that garlic oil could induce neutrophils and macrophages against tumor . 	24	30	84	89
+1	MATERIAL AND METHODS: Patient 1 had asthma when handling raw carrots . 	61	68	36	42
+0	METHOD: We assessed MD, RU and ND in same-sex twins from the population-based Swedish Twin Registry. 	24	26	31	33
+0	 Coffee , caffeine, and cardiovascular disease in men. 	1	7	24	46
+2	 Coffee intake is associated with lower rates of liver disease progression in chronic hepatitis C . 	1	7	78	97
+0	Confronting a neglected epidemic: tobacco cessation for persons with mental illnesses and substance abuse problems. 	34	41	69	85
+0	We studied the association of coffee consumption before and during pregnancy, and the subsequent risk of GDM . 	30	36	105	108
+1	She had asthma when handling raw carrots . 	33	40	8	14
+2	Exhaled nasal NO output during normobaric hypoxia was lowest following ginkgo (p < 0.003). 	71	77	42	49
+2	Suppressive effect of coffee on lipopolysaccharide-induced hepatitis in D-galactosamine-sensitized rats. 	22	28	59	68
+0	In nonexposed, tobacco-, or marijuana -smoke-exposed breast cancer cultures. 	28	37	53	66
+2	Joint effects of coffee consumption and serum gamma-glutamyltransferase on the risk of liver cancer . 	17	23	87	99
+2	RESULTS: Consumption of P ovata tended to be inversely correlated with mortality from colorectal cancer . 	24	31	86	103
+2	Antitumor effects of a water-soluble extract from Maitake (Grifola frondosa) on human gastric cancer cell lines. 	50	57	86	100
+0	The tumor incidences were 3% and 9% in animals given AFB1 plus garlic and AFB1 plus garlic oil, respectively. 	63	69	4	9
+0	Hypolipidemic effect of ginger in 1,2-dimethyl hydrazine-induced experimental colon carcinogenesis . 	24	30	78	98
+0	METHOD: We assessed MD , RU and ND in same-sex twins from the population-based Swedish Twin Registry. 	25	27	20	22
+0	 Garlic consumption and cancer prevention: meta-analyses of colorectal and stomach cancers . 	1	7	60	90
+0	Systematic review of the relation between smokeless tobacco and cancer in Europe and North America. 	52	59	64	70
+2	 Olive oil consumption is protective against risk factors for cardiovascular and cancer diseases . 	1	6	62	96
+0	It is unlikely that garlic is useful in preventing cardiovascular disease . 	20	26	51	73
+2	Cardioprotective effects of sour cherry seed extract (SCSE) on the hypercholesterolemic rabbit heart. 	28	39	67	87
+2	The efficacy of Ginkgo biloba on cognitive function in Alzheimer disease . 	16	29	55	72
+2	Nasal congestion and coffee /tea intake also affected xerostomia . 	21	27	54	64
+2	 HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer. 	1	4	40	46
+2	 Green tea is now recognized as the most effective cancer preventive beverage. 	1	10	51	57
+0	 Coffee consumption and risk of type 2 diabetes , cardiovascular diseases, and cancer. 	1	7	32	47
+1	Both cases proved to be cotton -material-induced granulomas . 	24	30	49	59
+2	Benefits of whole ginger extract in prostate cancer . 	18	24	36	51
+0	Association between areca -stimulated vimentin expression and the progression of head and neck cancers . 	20	25	81	102
+0	RESULTS: The results suggest modest correlations between MD and RU , and between MD and ND. 	64	66	57	59
+2	 Coriander has been recommended for the relief of pain, anxiety, flatulence, and loss of appetite . 	1	10	81	97
+2	 Tea alone and in combination with curcumin significantly increased the apoptotic index in dysplasia and SCC . 	1	4	105	108
+1	 Tobacco -related cancers in Madras, India. 	1	8	18	25
+2	Increased consumption of tomato products is associated with a decreased risk of cancer . 	25	31	80	86
+1	 Tobacco smoking and hypertension are significant factors associated with the development of these aneurysms . 	1	8	99	108
+0	However, the mechanism by which garlic oil protects diabetes-induced cardiomyopathy is unclear. 	32	38	69	83
+0	Consumption of black tea and cancer risk: a prospective cohort study. 	15	24	29	35
+0	Persistent cigarette smoking and other tobacco use after a tobacco-related cancer diagnosis. 	39	46	75	81
+1	 Tobacco -associated cancers included lung, esophageal, and H/N cancers . 	1	8	44	71
+2	 Olive oil consumption is protective against risk factors for cardiovascular and cancer diseases . 	1	6	81	96
+0	However, the growth rate of tumors was not markedly inhibited by garlic . 	65	71	28	34
+1	Studies on magnesium's mechanism of action in digitalis -induced arrhythmias . 	46	55	65	76
+0	Total coffee and total caffeine consumption were also not associated with the risk of RA . 	6	12	86	88
+0	OBJECTIVE: We studied the effect of unfiltered coffee consumption on putative biomarkers for colonic cancer risk. 	47	53	93	107
+0	METHODS AND MATERIALS: We randomized 58 head-and-neck cancer patients between oral aloe vera and placebo. 	83	92	40	60
+0	 Tobacco smoking and hypertension are significant factors associated with the development of these aneurysms. 	1	8	21	33
+0	Rats in the group 3 received NS (0,2 mL/kg) intraperitoneally, before ischemia and before reperfusion. 	29	31	70	78
+0	[Experimental study on treatment of minimal change nephropathy with Lespedeza michx ]. 	68	83	36	62
+0	Activity of Melaleuca alternifolia (tea tree) oil on Influenza virus A/PR/8: study on the mechanism of action. 	12	34	53	62
+0	RESULTS: The data failed to demonstrate any association between coffee consumption and risk for pancreas cancer . 	64	70	96	111
+2	 Plantago major (Plantaginaceae) is popularly used to treat tumors , infections and as a blood purifier. 	1	15	60	66
+2	 Cancer chemoprevention by pomegranate : laboratory and clinical evidence. 	27	38	1	7
+1	CONCLUSION: Areca -modulated vimentin expression enhanced the progression of head and neck carcinoma . 	12	17	77	100
+2	HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer . 	8	11	89	103
+2	BACKGROUND: Coffee consumption has been associated with a decreased risk of type 2 diabetes mellitus . 	12	18	76	100
+2	Chinese green tea ameliorates lung injury in cigarette smoke-exposed rats. 	8	17	30	41
+1	In children, the pecan tree constitutes a possible etiologic agent for the development of asthma . 	17	22	90	96
+0	 Green tea extract did not reduce lung tumor multiplicity in animals treated with a single dose of NNK. 	1	10	34	44
+2	Blood cholesterol was lowered significantly by dietary onion in diabetic animals. 	55	60	64	72
+0	Effects of soybean diet on the beta cells in the streptozotocin treated rats for induction of diabetes . 	11	18	94	102
+2	New cancer treatment strategy using combination of green tea catechins and anticancer drugs. 	51	60	4	10
+2	 Coriander has been recommended for the relief of pain, anxiety , flatulence, and loss of appetite. 	1	10	56	63
+2	Ginkgo biloba, an extract of the ginkgo tree, may prevent or lessen symptoms of acute mountain sickness in humans. 	33	39	80	103
+2	After injection of garlic oil in tumor focus a large amount of neutrophils, macrophages and lymphocytes appeared. 	19	25	33	38
+2	 HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer . 	1	4	90	104
+1	Halothane is known to oppose digitalis -induced ventricular arrhythmias . 	29	38	48	71
+0	We describe tobacco use behaviors among TRCS, other cancer survivors, and people without a history of cancer. 	12	19	52	58
+2	Inhibitory effect of green tea on the growth of established skin papillomas in mice. 	21	30	60	75
+2	This review focuses on recent investigations into the effects of pomegranate fruit on cancer . 	65	82	86	92
+3	A low familial income and tobacco smoking were associated with wheezing, asthma, chronic bronchitis and emphysema. 	26	33	89	99
+0	Activity of Melaleuca alternifolia ( tea tree ) oil on Influenza virus A/PR/8: study on the mechanism of action. 	37	45	55	64
+0	For men, coffee consumption was not associated with any of the components of the metabolic syndrome . 	9	15	81	99
+2	 Wolfberry is a traditional Asian fruit consumed for years to prevent aging eye diseases in Asian countries. 	1	10	76	88
+2	 PCA and HAs protected against oxidative damage induced by tert-butyl droperoxide (t-BHP) in rat primary hepatocytes. 	1	4	31	47
+0	 Colon carcinoma cells were treated with various concentrations of aloe -emodin for different durations. 	67	71	1	16
+2	[ Sabal serrulata extract in the management of symptoms of prostatic hypertrophy ]. 	2	17	59	80
+2	Our data confirmed an inverse association between coffee consumption and HCC mortality. 	50	56	73	76
+1	METHODS: In this analysis, data on Swiss tobacco -related cancer mortality from 1984 until 2008 were used. 	41	48	58	64
+2	 Serenoa Repens Induces Growth Arrest, Apoptosis and Inactivation of STAT3 Signaling in Human Glioma Cells. 	1	15	94	100
+0	[3 different malignancies of the aerodigestive tract after chronic abuse of cannabis products]. 	76	84	13	25
+0	We used structural equation modeling to examine the relationship between MD, RU , and ND given RU. 	77	79	86	88
+0	METHODS: Head and neck carcinoma cells were treated with areca nut extract to perceive the phenotypic impacts. 	57	66	9	32
+2	Animals given AFB1 together with fresh garlic or garlic oil showed a significant reduction in tumor incidence. 	39	45	94	99
+0	We describe tobacco use behaviors among TRCS, other cancer survivors, and people without a history of cancer . 	12	19	52	58
+0	Components of olive oil and chemoprevention of colorectal cancer . 	14	19	47	64
+3	A low familial income and tobacco smoking were associated with wheezing, asthma , chronic bronchitis and emphysema. 	26	33	73	79
+0	We used structural equation modeling to examine the relationship between MD , RU , and ND given RU. 	78	80	73	75
+0	Projected effects of tobacco smoking on worldwide tuberculosis control: mathematical modelling analysis. 	21	28	50	62
+2	Dietary wolfberry ameliorates retinal structure abnormalities in db/db mice at the early stage of diabetes . 	8	17	98	106
+0	In nonexposed, tobacco -, or marijuana-smoke-exposed breast cancer cultures. 	15	22	53	66
+0	We aimed to determine whether NS prevents intestinal ischemia-reperfusion injury in rats. 	30	32	42	80
+2	Therefore, RGSE may be a beneficial supplement which can improve human arthritis . 	11	15	71	80
+2	It is known that the risk of DM II can be decreased by coffee consumption. 	55	61	29	34
+0	No significant association was observed between olive oil and cancer mortality. 	48	53	62	68
+0	Evaluation of the use of coconut to treat chronic diarrhea in rhesus macaques (Macaca mulatta). 	25	32	50	58
+0	Total coffee consumption was not associated with an increased risk of coronary heart disease or stroke . 	6	12	96	102
+0	Therefore, we examined the association between coffee consumption and the components of the metabolic syndrome . 	47	53	92	110
+2	Other compounds that may be able to suppress carcinogenesis in animals are the soybean isoflavones. 	79	86	45	59
+0	No modification in the pain threshold was elicited by electric stimuli both in coriander and control groups. 	79	88	23	27
+1	Alcohol and tobacco habits have been identified as strong risk factors for esophageal cancer . 	12	19	75	92
+3	 Xerostomia was associated with coffee /tea intake (p < 0.01) and nasal congestion (p < 0.001). 	32	38	1	11
+2	 Green tea also decreased the number of dysplasic lesions . 	1	10	40	57
+0	RESULTS: The results suggest modest correlations between MD and RU , and between MD and ND . 	64	66	88	90
+2	Cardioprotective effects of sour cherry seed extract ( SCSE ) on the hypercholesterolemic rabbit heart. 	55	59	69	89
+2	 Coffee consumption was recently shown to protect against symptomatic gallbladder disease in men. 	1	7	70	89
+2	 Coriander has been recommended for the relief of pain, anxiety, flatulence , and loss of appetite. 	1	10	65	75
+3	 Xerostomia was associated with coffee/ tea intake (p < 0.01) and nasal congestion (p < 0.001). 	40	43	1	11
+2	 Coffee intake is associated with lower rates of liver disease progression in chronic hepatitis C. 	1	7	49	62
+2	HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer. 	8	11	76	84
+3	CONCLUSIONS: Areca nut chewing has a significant association with systemic inflammation . 	13	18	66	87
+1	 Tobacco -associated cancers included lung, esophageal, and H/N cancers. 	1	8	21	28
+0	 Coffee consumption and risk of type 2 diabetes, cardiovascular diseases , and cancer. 	1	7	49	72
+0	We studied the estrogenic activity and cellular effect of wild yam extract in MCF-7 human breast cancer cells. 	63	66	90	103
+0	CONCLUSIONS: In this Australian follow-up study, tobacco smoking did not increase the risk of SCC of the skin. 	49	56	94	97
+0	We examined the relationship between coffee consumption and the risk of gestational diabetes mellitus [GDM]. 	37	43	72	101
+2	CONCLUSIONS: This study demonstrates SCSE cardioprotective effects on hypercholesterolemic hearts . 	37	41	70	97
+2	Plantago major ( Plantaginaceae ) is popularly used to treat tumors , infections and as a blood purifier. 	17	31	61	67
+1	She had asthma due to raw carrot ingestion and inhalation. 	26	32	8	14
+0	We used structural equation modeling to examine the relationship between MD , RU, and ND given RU . 	78	80	73	75
+0	AIM: To investigate the anti-hepatofibrotic effects of Gardenia jasminoides in liver fibrosis . 	55	75	79	93
+2	 Garlic prevents hypertension induced by chronic inhibition of nitric oxide synthesis. 	1	7	17	29
+2	CONCLUSION: Green tea consumption was associated with a lower risk of death from pneumonia in Japanese women. 	12	21	81	90
+0	 Tobacco smoking and cutaneous squamous cell carcinoma : a 16-year longitudinal population-based study. 	1	8	21	54
+2	Red yeast rice reduces adverse cardiac events to a similar degree as the statins. 	10	14	31	45
+2	 Agarwood induced laxative effects via acetylcholine receptors on loperamide-induced constipation in mice. 	1	9	85	97
+1	 Tobacco -associated cancers included lung, esophageal, and H/N cancers . 	1	8	60	71
+1	BACKGROUND: Coffee consumption has been brought to focus as a possible risk factor for pancreas cancer . 	12	18	87	102
+0	 Coffee consumption and risk of rheumatoid arthritis . 	1	7	32	52
+1	 Tobacco -associated cancers included lung, esophageal, and H/N cancers . 	1	8	38	71
+0	The prevalence of total gallbladder disease was unrelated to coffee consumption in either men or women. 	61	67	24	43
+1	EEA-1 and EEA-2 did not induce diarrhea as a side effect, but senna induced severe diarrhea . 	62	67	31	39
+2	 Fenugreek , a naturally occurring edible spice, kills MCF-7 human breast cancer cells via an apoptotic pathway. 	1	10	67	80
+2	Protective effects of Nigella sativa on intestinal ischemia-reperfusion injury in rats. 	22	36	40	78
+1	 Atrial tachyarrhythmias are a common manifestation of digitalis toxicity. 	55	64	1	24
+2	Dietary wolfberry ameliorates retinal structure abnormalities in db/db mice at the early stage of diabetes. 	8	17	30	61
+2	Antitumor effects of a water-soluble extract from Maitake ( Grifola frondosa ) on human gastric cancer cell lines. 	60	76	88	102

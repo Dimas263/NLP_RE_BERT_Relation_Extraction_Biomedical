@@ -34,16 +34,16 @@ class ReDataset(Dataset):
 
 if __name__ == '__main__':
     args = config.Args().get_parser()
-    args.log_dir = 'output/logs/'
-    args.max_seq_len = 128
-    args.bert_dir = 'model/BiomedNLP-PubMedBERT/'
+    args.log_dir = args.log_dir
+    args.max_seq_len = args.max_seq_len 
+    args.bert_dir = args.bert_dir
 
     processor = Processor()
 
     label2id = {}
     id2label = {}
     
-    with open('input/data/rel_dict.json', 'r') as fp:
+    with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/rel_dict.json', 'r') as fp:
         labels = json.loads(fp.read())
     for k, v in labels.items():
         label2id[k] = v
@@ -51,19 +51,19 @@ if __name__ == '__main__':
         
     print(label2id)
 
-    train_out = get_out(processor, 'input/data/train.txt', args, id2label, 'train')
-    dev_out = get_out(processor, 'input/data/test.txt', args, id2label, 'dev')
-    test_out = get_out(processor, 'input/data/test.txt', args, id2label, 'test')
+    train_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/train.txt', args, id2label, 'train')
+    dev_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'dev')
+    test_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'test')
 
     # import pickle
-    # with open('input/data/final_data/train.pkl','wb') as fp:
+    # with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/final_data/train.pkl','wb') as fp:
     #     pickle.dump(train_out, fp)
-    # with open('input/data/final_data/dev.pkl','wb') as fp:
+    # with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/final_data/dev.pkl','wb') as fp:
     #     pickle.dump(dev_out, fp)
-    # with open('input/data/final_data/test.pkl','wb') as fp:
+    # with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/final_data/test.pkl','wb') as fp:
     #     pickle.dump(test_out, fp)
     #
-    # train_out = pickle.load(open('input/data/final_data/dev.pkl','rb'))
+    # train_out = pickle.load(open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/final_data/dev.pkl','rb'))
     
     train_features, train_callback_info = train_out
     train_dataset = ReDataset(train_features)
@@ -81,7 +81,8 @@ if __name__ == '__main__':
     train_loader = DataLoader(dataset=train_dataset,
                               batch_size=args.train_batch_size,
                               sampler=train_sampler,
-                              num_workers=2)
+                              num_workers=2
+                              )
     for step, train_data in enumerate(train_loader):
         print(train_data['token_ids'].shape)
         print(train_data['attention_masks'].shape)

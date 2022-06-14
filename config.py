@@ -10,15 +10,23 @@ class Args:
     @staticmethod
     def initialize(parser):
         # args for path
-        parser.add_argument('--output_dir', default='output/checkpoint/',
+        parser.add_argument('--output_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/checkpoint/',
                             help='the output dir for model checkpoints')
 
-        parser.add_argument('--bert_dir', default='model/BiomedNLP-PubMedBERT/',
+        parser.add_argument('--bert_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/model/BiomedNLP-PubMedBERT/',
                             help='bert dir for uer')
-        parser.add_argument('--data_dir', default='input/data/',
+
+        parser.add_argument('--data_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/',
                             help='data dir for uer')
-        parser.add_argument('--log_dir', default='output/logs/',
+
+        parser.add_argument('--log_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/',
                             help='log dir for uer')
+        
+        parser.add_argument('--main_log_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/BiomedNLP-PubMedBERT-main.log',
+                            help='main log dir for uer')
+        
+        parser.add_argument('--preprocess_log_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/BiomedNLP-PubMedBERT-preprocess.log',
+                            help='preprocess log dir for uer')
 
         # other args
         parser.add_argument('--num_tags', default=4, type=int,
@@ -42,13 +50,12 @@ class Args:
         parser.add_argument('--dropout_prob', default=0.1, type=float,
                             help='drop out probability')
 
-        # 2e-5
         parser.add_argument('--lr', default=3e-5, type=float,
                             help='learning rate for the bert module')
-        # 2e-3
+        
         parser.add_argument('--other_lr', default=3e-4, type=float,
                             help='learning rate for the module except bert')
-        # 0.5
+        
         parser.add_argument('--max_grad_norm', default=1, type=float,
                             help='max grad clip')
 

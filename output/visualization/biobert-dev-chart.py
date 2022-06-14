@@ -4,7 +4,7 @@ import csv
 x = []
 y = []
 
-url = 'output/visualization/biobert-dev.csv'
+url = 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/visualization/biobert-dev.csv'
 
 with open(url, 'r') as csvfile:
     lines = csv.reader(csvfile, delimiter=',')
@@ -22,4 +22,4 @@ plt.title('Development', fontsize=20)
 plt.grid()
 plt.legend()
 # plt.show()
-plt.savefig('output/visualization/biobert-dev.png')
+plt.savefig('drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/visualization/biobert-dev.png')

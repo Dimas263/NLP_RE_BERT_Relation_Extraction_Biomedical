@@ -11,3 +11,4 @@
 ### [<img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> main.log](https://gitlab.com/research.dimas/nlp_bert_relation_extraction/-/raw/main/output/logs/Biobert-main.log) 
 
 ### [<img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> preprocess.log](https://gitlab.com/research.dimas/nlp_bert_relation_extraction/-/raw/main/output/logs/Biobert-preprocess.log) 
+

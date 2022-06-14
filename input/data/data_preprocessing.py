@@ -3,14 +3,14 @@ import json
 import pandas as pd
 from pprint import pprint
 
-df = pd.read_excel('input/data/gold-standard-corpus.xlsx')
+df = pd.read_excel('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/gold-standard-corpus.xlsx')
 relations = list(df['relation'].unique())
 
-relations.remove('Cause_of_disease')
-relation_dict = {'Cause_of_disease': 0}
+relations.remove('Negative')
+relation_dict = {'Negative': 0}
 relation_dict.update(dict(zip(relations, range(1, len(relations) + 1))))
 
-with open('input/data/rel_dict.json', 'w', encoding='utf-8') as h:
+with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/rel_dict.json', 'w', encoding='utf-8') as h:
     h.write(json.dumps(relation_dict, ensure_ascii=False, indent=2))
 
 pprint(df['relation'].value_counts())
@@ -43,21 +43,21 @@ df = pd.DataFrame(texts, columns=['text', 'rel'])
 df['length'] = df['text'].apply(lambda x: len(x))
 df = df[df['length'] <= 128]
 
-predict_df = df.sample(frac=0.4, random_state=1024)
 train_df = df.sample(frac=0.8, random_state=1024)
 test_df = df.drop(train_df.index)
+predict_df = test_df.sample(frac=0.4, random_state=1024)
 
-with open('input/data/predict.txt', 'w', encoding='utf-8') as f:
+with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/predict.txt', 'w', encoding='utf-8') as f:
     for text, rel in zip(predict_df['text'].tolist(), predict_df['rel'].tolist()):
         f.write(str(rel) + '\t' + text + '\n')
 print ("\nsuccess to create predict.txt")
 
-with open('input/data/train.txt', 'w', encoding='utf-8') as f:
+with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/train.txt', 'w', encoding='utf-8') as f:
     for text, rel in zip(train_df['text'].tolist(), train_df['rel'].tolist()):
         f.write(str(rel) + '\t' + text + '\n')
 print ("success to create train.txt")
 
-with open('input/data/test.txt', 'w', encoding='utf-8') as g:
+with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', 'w', encoding='utf-8') as g:
     for text, rel in zip(test_df['text'].tolist(), test_df['rel'].tolist()):
         g.write(str(rel) + '\t' + text + '\n')
 print ("success to create test.txt")

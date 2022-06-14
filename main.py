@@ -13,7 +13,7 @@ from torch.utils.data import DataLoader, RandomSampler
 from transformers import BertTokenizer
 
 import config
-import preprocess
+import preprocess_no_log
 import dataset
 import models
 import utils
@@ -41,8 +41,8 @@ class Trainer:
 
 
     def load_ckp(self, model, optimizer, checkpoint_path):
-        checkpoint = torch.load(checkpoint_path)
-        # checkpoint = torch.load(checkpoint_path, map_location=self.device)
+        # checkpoint = torch.load(checkpoint_path)
+        checkpoint = torch.load(checkpoint_path, map_location=self.device)
         model.load_state_dict(checkpoint['state_dict'])
         optimizer.load_state_dict(checkpoint['optimizer'])
         epoch = checkpoint['epoch']
@@ -195,22 +195,22 @@ class Trainer:
 if __name__ == '__main__':
     args = config.Args().get_parser()
     utils.utils.set_seed(args.seed)
-    utils.utils.set_logger(os.path.join(args.log_dir, 'main.log'))
+    utils.utils.set_logger(os.path.join(args.main_log_dir))
 
-    processor = preprocess.Processor()
+    processor = preprocess_no_log.Processor()
 
     label2id = {}
     id2label = {}
-    with open('input/data/rel_dict.json', 'r') as fp:
+    with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/rel_dict.json', 'r') as fp:
         labels = json.loads(fp.read())
     for k, v in labels.items():
         label2id[k] = v
         id2label[v] = k
     logger.info(label2id)
 
-    train_out = preprocess.get_out(processor, 'input/data/train.txt', args, id2label, 'train')
-    dev_out = preprocess.get_out(processor, 'input/data/test.txt', args, id2label, 'dev')
-    test_out = preprocess.get_out(processor, 'input/data/test.txt', args, id2label, 'test')
+    train_out = preprocess_no_log.get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/train.txt', args, id2label, 'train')
+    dev_out = preprocess_no_log.get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'dev')
+    test_out = preprocess_no_log.get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'test')
 
     
     train_features, train_callback_info = train_out
@@ -245,10 +245,9 @@ if __name__ == '__main__':
     trainer.train()
     
     logger.info('======== Calculate Testing========')
-    checkpoint_path = 'output/checkpoint/best.pt'
+    checkpoint_path = f'{args.output_dir}best.pt'
     total_loss, test_outputs, test_targets = trainer.test(checkpoint_path)
     accuracy, micro_f1, macro_f1 = trainer.get_metrics(test_outputs, test_targets)
     logger.info("【test】 loss：{:.6f} accuracy：{:.4f} micro_f1：{:.4f} macro_f1：{:.4f}".format(total_loss, accuracy, micro_f1, macro_f1))
     report = trainer.get_classification_report(test_outputs, test_targets, labels)
     logger.info(report)
-

@@ -1,7 +1,7 @@
 # <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/undefined/external-big-data-smart-technology-flaticons-lineal-color-flat-icons-2.png"/> **NLP Research**
 # **Relation Extraction in Biomedical using Bert-LSTM-CRF model and pytorch**
 ## <img src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/undefined/external-man-avatar-avatar-fauzidea-flat-fauzidea.png"/> **`Dimas Dwi Putra`**
-<img src="https://img.icons8.com/metro/26/undefined/chevron-right.png"> NLP Research - Bert Relation Extraction in Biomedical.
+<img src="https://img.icons8.com/metro/26/undefined/chevron-right.png"> NLP Research - Bert Relation Extraction in Biomedical.<br>
 
 <img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 1.ipynb](BiomedNLP_PubMedBERT_Notebook.ipynb)<br>`Created using BiomedNLP-PubMedBERT Pre-Trained Model`<br>
 
@@ -95,20 +95,20 @@ config.json
 
 ## <img src="https://img.icons8.com/color/48/undefined/4-circle--v1.png"/> Preprocessing
 ```yaml
-2022-06-04 22:02:26,739 - INFO - preprocess.py - <module> - 180 - {'output_dir': 'output/checkpoint/', 'bert_dir': 'model/BiomedNLP-PubMedBERT/', 'data_dir': 'input/data/', 'log_dir': 'output/logs/', 'num_tags': 4, 'seed': 123, 'gpu_ids': '0', 'max_seq_len': 128, 'eval_batch_size': 64, 'swa_start': 3, 'train_epochs': 10, 'dropout_prob': 0.8, 'lr': 1e-05, 'other_lr': 0.0001, 'max_grad_norm': 1, 'warmup_proportion': 0.1, 'weight_decay': 0.01, 'adam_epsilon': 1e-12, 'train_batch_size': 64, 'eval_model': True}
-2022-06-04 22:02:26,742 - INFO - preprocess.py - get_out - 151 - ==========================
-2022-06-04 22:02:26,742 - INFO - preprocess.py - get_out - 152 - example_text : Halothane is known to oppose <e1start> digitalis <e1end>-induced <e2start> ventricular arrhythmias <e2end>. 
-2022-06-04 22:02:26,742 - INFO - preprocess.py - get_out - 153 - example_id_label : 0
-2022-06-04 22:02:26,742 - INFO - preprocess.py - get_out - 154 - example_id_tags : [29, 56, 65, 106]
-2022-06-04 22:02:26,743 - INFO - preprocess.py - get_out - 155 - ==========================
-2022-06-04 22:02:27,162 - INFO - preprocess.py - convert_examples_to_features - 120 - Convert 46 examples to features
-2022-06-04 22:02:27,163 - INFO - preprocess.py - convert_bert_example - 95 - *** train_example-0 ***
-2022-06-04 22:02:27,163 - INFO - preprocess.py - convert_bert_example - 96 - text: [CLS] [UNK] a l o t h a n e [UNK] i s [UNK] k n o w n [UNK] t o [UNK] o p p o s e [UNK] < e 1 s t a r t > [UNK] d i g i t a l i s [UNK] < e 1 e n d > - i n d u c e d [UNK] < e 2 s t a r t > [UNK] v e n t r i c u l a r [UNK] a r r h y t h m i a s [UNK] < e 2 e n d >. [UNK] [SEP]
-2022-06-04 22:02:27,163 - INFO - preprocess.py - convert_bert_example - 97 - token_ids: [2, 1, 43, 54, 57, 62, 50, 43, 56, 47, 1, 51, 61, 1, 53, 56, 57, 65, 56, 1, 62, 57, 1, 57, 58, 58, 57, 61, 47, 1, 32, 47, 21, 61, 62, 43, 60, 62, 34, 1, 46, 51, 49, 51, 62, 43, 54, 51, 61, 1, 32, 47, 21, 47, 56, 46, 34, 17, 51, 56, 46, 63, 45, 47, 46, 1, 32, 47, 22, 61, 62, 43, 60, 62, 34, 1, 64, 47, 56, 62, 60, 51, 45, 63, 54, 43, 60, 1, 43, 60, 60, 50, 67, 62, 50, 55, 51, 43, 61, 1, 32, 47, 22, 47, 56, 46, 34, 18, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-2022-06-04 22:02:27,163 - INFO - preprocess.py - convert_bert_example - 98 - attention_masks: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-2022-06-04 22:02:27,163 - INFO - preprocess.py - convert_bert_example - 99 - token_type_ids: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-2022-06-04 22:02:27,164 - INFO - preprocess.py - convert_bert_example - 100 - labels: 0
-2022-06-04 22:02:27,164 - INFO - preprocess.py - convert_bert_example - 101 - ids: [30, 57, 66, 107]
+2022-06-14 20:24:44,227 - INFO - preprocess.py - <module> - 180 - {'output_dir': 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/checkpoint/BiomedNLP-PubMedBERT/', 'bert_dir': 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/model/BiomedNLP-PubMedBERT/', 'data_dir': 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/', 'log_dir': 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/', 'main_log_dir': 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/BiomedNLP-PubMedBERT-main.log', 'preprocess_log_dir': 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/BiomedNLP-PubMedBERT-preprocess.log', 'num_tags': 4, 'seed': 123, 'gpu_ids': '0', 'max_seq_len': 128, 'eval_batch_size': 64, 'swa_start': 3, 'train_epochs': 100, 'dropout_prob': 0.1, 'lr': 1e-05, 'other_lr': 0.0001, 'max_grad_norm': 1, 'warmup_proportion': 0.1, 'weight_decay': 0.01, 'adam_epsilon': 1e-12, 'train_batch_size': 64, 'eval_model': True}
+2022-06-14 20:24:46,287 - INFO - preprocess.py - get_out - 151 - ==========================
+2022-06-14 20:24:46,288 - INFO - preprocess.py - get_out - 152 - example_text : However, more studies need to further explore the roles of vitex agnus castus in fracture repair processes. 
+2022-06-14 20:24:46,288 - INFO - preprocess.py - get_out - 153 - example_id_label : 0
+2022-06-14 20:24:46,288 - INFO - preprocess.py - get_out - 154 - example_id_tags : [59, 77, 81, 89]
+2022-06-14 20:24:46,289 - INFO - preprocess.py - get_out - 155 - ==========================
+2022-06-14 20:24:47,175 - INFO - preprocess.py - convert_examples_to_features - 120 - Convert 187 examples to features
+2022-06-14 20:24:47,180 - INFO - preprocess.py - convert_bert_example - 95 - *** train_example-0 ***
+2022-06-14 20:24:47,181 - INFO - preprocess.py - convert_bert_example - 96 - text: [CLS] [UNK] o w e v e r, [UNK] m o r e [UNK] s t u d i e s [UNK] n e e d [UNK] t o [UNK] f u r t h e r [UNK] e x p l o r e [UNK] t h e [UNK] r o l e s [UNK] o f [UNK] v i t e x [UNK] a g n u s [UNK] c a s t u s [UNK] i n [UNK] f r a c t u r e [UNK] r e p a i r [UNK] p r o c e s s e s. [UNK] [SEP]
+2022-06-14 20:24:47,181 - INFO - preprocess.py - convert_bert_example - 97 - token_ids: [2, 1, 57, 65, 47, 64, 47, 60, 16, 1, 55, 57, 60, 47, 1, 61, 62, 63, 46, 51, 47, 61, 1, 56, 47, 47, 46, 1, 62, 57, 1, 48, 63, 60, 62, 50, 47, 60, 1, 47, 66, 58, 54, 57, 60, 47, 1, 62, 50, 47, 1, 60, 57, 54, 47, 61, 1, 57, 48, 1, 64, 51, 62, 47, 66, 1, 43, 49, 56, 63, 61, 1, 45, 43, 61, 62, 63, 61, 1, 51, 56, 1, 48, 60, 43, 45, 62, 63, 60, 47, 1, 60, 47, 58, 43, 51, 60, 1, 58, 60, 57, 45, 47, 61, 61, 47, 61, 18, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-06-14 20:24:47,181 - INFO - preprocess.py - convert_bert_example - 98 - attention_masks: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-06-14 20:24:47,181 - INFO - preprocess.py - convert_bert_example - 99 - token_type_ids: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-06-14 20:24:47,182 - INFO - preprocess.py - convert_bert_example - 100 - labels: 0
+2022-06-14 20:24:47,182 - INFO - preprocess.py - convert_bert_example - 101 - ids: [60, 78, 82, 90]
 . . . 
 ```
 [LOAD MORE..](output/logs)
@@ -121,62 +121,54 @@ config.json
 
 - Train
 ```yaml
-2022-06-06 17:47:43,346 - INFO - main.py - train - 86 - 【train】 epoch：488 step:488/500 loss：0.016277
-2022-06-06 17:47:43,547 - INFO - main.py - train - 92 - 【dev】 loss：1.819899 accuracy：0.7273 micro_f1：0.7273 macro_f1：0.7738
-2022-06-06 17:47:43,547 - INFO - main.py - train - 94 - ------------>Save best model
+2022-06-14 20:35:06,300 - INFO - main.py - train - 86 - 【train】 epoch：48 step:580/1200 loss：0.025188
+2022-06-14 20:35:06,651 - INFO - main.py - train - 92 - 【dev】 loss：2.567647 accuracy：0.7872 micro_f1：0.7872 macro_f1：0.8343
+2022-06-14 20:35:06,652 - INFO - main.py - train - 94 - ------------>Save best model
 ...
 ```
 - Test
 ```yaml
-2022-06-06 17:48:03,406 - INFO - main.py - <module> - 247 - ======== Calculate Testing========
-2022-06-06 17:48:06,156 - INFO - main.py - <module> - 251 - 【test】 loss：1.819899 accuracy：0.7273 micro_f1：0.7273 macro_f1：0.7738
-...
-2022-06-06 17:48:06,159 - INFO - main.py - <module> - 253 -
+2022-06-14 20:40:56,848 - INFO - main.py - <module> - 247 - ======== Calculate Testing========
+2022-06-14 20:40:59,872 - INFO - main.py - <module> - 251 - 【test】 loss：2.567647 accuracy：0.7872 micro_f1：0.7872 macro_f1：0.8343
 ```
-```
-                       precision    recall  per-class    support
-                                            f1-scores
+<center>
 
-    Cause_of_disease       1.00      0.75      0.86         4
-Treatment_of_disease       0.50      0.67      0.57         3
-            Negative       0.67      0.67      0.67         3
+```
+                        precision    recall   per-class   support
+                                    f1-scores
+
+            Negative       0.83      0.67      0.74        15
+    Cause_of_disease       0.69      0.92      0.79        12
+Treatment_of_disease       0.83      0.79      0.81        19
          Association       1.00      1.00      1.00         1
 ```
 
-```
-                         precision    recall   Average     support
-                                              f1-scores
 
-            accuracy                            0.73         11
-           macro avg       0.79        0.77     0.77         11
-        weighted avg       0.77        0.73     0.74         11
+<img src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/undefined/external-arrow-arrow-line-royyan-wijaya-detailed-outline-royyan-wijaya-8.png"/>
+
+
 ```
+                          precision    recall   Average     support
+                                    f1-scores
+
+            accuracy                           0.79        47
+           macro avg       0.84      0.84      0.83        47
+        weighted avg       0.80      0.79      0.79        47
+```
+</center>
 [LOAD MORE.. ](output/logs)
 
 - Predict
 ```yaml
-2022-06-06 17:48:21,778 - INFO - predict.py - <module> - 208 - {'Cause_of_disease': 0, 'Treatment_of_disease': 1, 'Negative': 2, 'Association': 3}
-2022-06-06 17:48:21,912 - INFO - predict.py - <module> - 240 - ======== Prediction ========
-2022-06-06 17:48:30,387 - INFO - predict.py - <module> - 252 - Halothane is known to oppose <e1start> digitalis <e1end>-induced <e2start> ventricular arrhythmias <e2end>. 
-2022-06-06 17:48:32,477 - INFO - predict.py - <module> - 254 - predict labels：Cause_of_disease
-2022-06-06 17:48:32,477 - INFO - predict.py - <module> - 255 - true label：Cause_of_disease
-2022-06-06 17:48:32,477 - INFO - predict.py - <module> - 256 - ==========================
-2022-06-06 17:48:32,477 - INFO - predict.py - <module> - 252 - Both cases proved to be <e1start> cotton <e1end>-material-induced <e2start> granulomas <e2end>. 
-2022-06-06 17:48:34,386 - INFO - predict.py - <module> - 254 - predict labels：Cause_of_disease
-2022-06-06 17:48:34,386 - INFO - predict.py - <module> - 255 - true label：Cause_of_disease
-2022-06-06 17:48:34,386 - INFO - predict.py - <module> - 256 - ==========================
-2022-06-06 17:48:34,386 - INFO - predict.py - <module> - 252 - The evidence for <e1start> soybean <e1end> products as <e2start> cancer <e2end> preventive agents.  
-2022-06-06 17:48:36,268 - INFO - predict.py - <module> - 254 - predict labels：Cause_of_disease
-2022-06-06 17:48:36,268 - INFO - predict.py - <module> - 255 - true label：Treatment_of_disease
-2022-06-06 17:48:36,268 - INFO - predict.py - <module> - 256 - ==========================
-2022-06-06 17:48:36,268 - INFO - predict.py - <module> - 252 - [Mortality trends in <e2start> cancer <e2end> attributable to <e1start> tobacco <e1end> in Mexico].  
-2022-06-06 17:48:38,163 - INFO - predict.py - <module> - 254 - predict labels：Cause_of_disease
-2022-06-06 17:48:38,164 - INFO - predict.py - <module> - 255 - true label：Cause_of_disease
-2022-06-06 17:48:38,164 - INFO - predict.py - <module> - 256 - ==========================
-2022-06-06 17:48:38,164 - INFO - predict.py - <module> - 252 - <e1start> Areca <e1end> nut chewing has a significant association with <e2start> systemic inflammation <e2end>.
-2022-06-06 17:48:40,109 - INFO - predict.py - <module> - 254 - predict labels：Association
-2022-06-06 17:48:40,109 - INFO - predict.py - <module> - 255 - true label：Association
-2022-06-06 17:48:40,109 - INFO - predict.py - <module> - 256 - ==========================
+2022-06-14 20:41:18,016 - INFO - predict.py - <module> - 200 - ======== Prediction ========
+2022-06-14 20:41:27,231 - INFO - predict.py - <module> - 213 - OBJECTIVE: To study the role of pecan tree pollen in the development of allergy . 
+2022-06-14 20:41:29,887 - INFO - predict.py - <module> - 215 - predict labels：Negative
+2022-06-14 20:41:29,887 - INFO - predict.py - <module> - 216 - true label：Negative
+2022-06-14 20:41:29,888 - INFO - predict.py - <module> - 217 - ==========================
+2022-06-14 20:42:00,013 - INFO - predict.py - <module> - 213 - A lipid-soluble red ginseng extract inhibits the growth of human lung tumor xenografts in nude mice. 
+2022-06-14 20:42:02,499 - INFO - predict.py - <module> - 215 - predict labels：Treatment_of_disease
+2022-06-14 20:42:02,500 - INFO - predict.py - <module> - 216 - true label：Treatment_of_disease
+2022-06-14 20:42:02,500 - INFO - predict.py - <module> - 217 - ==========================
 ...
 ```
 [LOAD MORE.. ](output/logs)

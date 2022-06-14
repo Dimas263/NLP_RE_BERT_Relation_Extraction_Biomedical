@@ -1,11 +1,47 @@
-0	Its effect on <e1start> digitalis <e1end>-caused <e2start> atrial arrhythmias <e2end> is unknown. 	14	41	49	85
-2	However, the growth rate of <e2start> tumors <e2end> was not markedly inhibited by <e1start> garlic <e1end>. 	83	107	28	52
-0	<e1start> Tobacco <e1end>-related <e2start> cancers <e2end> in Madras, India.  	0	25	34	59
-0	The importance of the <e1start> pecan <e1end> tree pollen in <e2start> allergic <e2end> manifestations.  	22	45	61	87
-2	Components of <e1start> olive <e1end> oil and chemoprevention of <e2start> colorectal cancer <e2end>.  	14	37	65	100
-2	It is unlikely that <e1start> garlic <e1end> is useful in preventing <e2start> cardiovascular disease <e2end>.  	20	44	69	109
-1	It is known that the risk of <e2start> DM II <e2end> can be decreased by <e1start> coffee <e1end> consumption. 	73	97	29	52
-1	<e2start> Cancer <e2end> chemoprevention by <e1start> pomegranate <e1end>: laboratory and clinical evidence.  	44	73	0	24
-1	<e1start> Green tea <e1end> is now recognized as the most effective <e2start> cancer <e2end> preventive beverage. 	0	27	68	92
-0	<e1start> Tobacco <e1end>-associated cancers included lung, esophageal, and <e2start> H/N cancers <e2end>. 	0	25	76	105
-3	an individual's burden of <e2start> schizophrenia <e2end> risk alleles and use of <e1start> cannabis <e1end>.	82	108	26	57
+1	Its effect on digitalis -caused atrial arrhythmias is unknown. 	14	23	32	50
+0	Total coffee consumption was not associated with an increased risk of coronary heart diseas e or stroke. 	6	12	70	91
+2	Efficacy of cancer prevention by high-selenium garlic is primarily dependent on the action of selenium. 	47	53	12	18
+2	Therefore the minimal optimal dose of garlic to inhibit colon cancer was 2.5%. 	38	44	56	68
+2	Thus smaller tumor volume and longer survival time were found in the garlic group than in the controls (p < 0.01). 	69	75	13	18
+1	Detection and cloning of potent transforming gene(s) from chewing tobacco -related human oral carcinomas . 	66	73	89	104
+2	Preventive action of garlic on aflatoxin B1-induced carcinogenesis in the toad Bufo regularis. 	21	27	52	66
+2	Animals given AFB1 together with fresh garlic or garlic oil showed a significant reduction in tumor incidence. 	39	45	94	99
+0	The tumor incidences were 3% and 9% in animals given AFB1 plus garlic and AFB1 plus garlic oil, respectively. 	63	69	4	9
+2	 Garlic and its significance for the prevention of cancer in humans: a critical view. 	1	7	51	57
+0	OBJECTIVE: To study the role of pecan tree pollen in the development of allergy . 	32	37	72	79
+2	Significant cancer protection was observed with treatment by the Se- garlic extract (at 3 p.p.m. 	69	75	12	18
+1	An excess risk of dying of lung cancer and heart diseases probably reflects a high tobacco consumption. 	83	90	43	57
+1	An excess risk of dying of lung cancer and heart diseases probably reflects a high tobacco consumption. 	83	90	27	38
+0	 Garlic consumption and cancer prevention: meta-analyses of colorectal and stomach cancers . 	1	7	75	90
+0	Association of coffee consumption with gallbladder disease . 	15	21	39	58
+3	A low familial income and tobacco smoking were associated with wheezing , asthma, chronic bronchitis and emphysema. 	26	33	63	71
+1	This study emphasizes the role of reducing tobacco smoking in the prevention of chronic respiratory diseases . 	43	50	88	108
+1	[Mortality trends in cancer attributable to tobacco in Mexico]. 	44	51	21	27
+2	Inhibition of 7,12-dimethylbenz[a]anthracene (DMBA)-induced oral carcinogenesis in hamsters by tea and curcumin. 	95	98	60	79
+1	 Tobacco smoke carcinogens, DNA damage and p53 mutations in smoking-associated cancers . 	1	8	79	86
+1	Patients with anaphylaxis to pea can have peanut allergy caused by cross-reactive IgE to vicilin (Ara h 1). 	29	32	42	56
+2	CONCLUSION: Lespedeza Michx was effective on MCN . 	12	27	45	48
+0	 Coffee and risk of death from hepatocellular carcinoma in a large cohort study in Japan. 	1	7	31	55
+1	Role of Dau c 1 in three different patterns of carrot -induced asthma . 	47	53	63	69
+1	OBJECTIVE: To assess the role of Dau c 1 in three patients with carrot induced asthma . 	64	70	79	85
+0	 Coffee consumption and the risk of gestational diabetes mellitus . 	1	7	36	65
+0	Data concerning olive oil consumption and primary end points for cardiovascular disease are scarce. 	16	21	65	87
+0	Mutagen sensitivity, tobacco smoking and breast cancer risk: a case-control study. 	21	28	41	54
+1	Our data also suggest that bleomycin sensitivity may modulate the effect of tobacco smoking on breast cancer risk. 	76	83	95	108
+2	A lipid-soluble red ginseng extract inhibits the growth of human lung tumor xenografts in nude mice. 	20	27	65	75
+2	Caffeine and coffee as therapeutics against Alzheimer's disease . 	13	19	44	63
+0	However, the mechanism by which garlic oil protects diabetes -induced cardiomyopathy is unclear. 	32	38	52	60
+2	 Zingiber officinale Mitigates Brain Damage and Improves Memory Impairment in Focal Cerebral Ischemic Rat. 	1	20	31	43
+2	Thus, cancer patients who consume green tea and take anticancer drugs will have double prevention. 	34	43	6	12
+2	PCA and HAs protected against oxidative damage induced by tert-butyl droperoxide (t-BHP) in rat primary hepatocytes. 	8	11	30	46
+2	 HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer. 	1	4	77	85
+2	HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer. 	8	11	39	45
+0	RESULTS: Upon treatment with areca nut extract, carcinoma cells showed the increase of vimentin. 	29	38	48	57
+2	 Coriander has been recommended for the relief of pain , anxiety, flatulence, and loss of appetite. 	1	10	50	54
+0	 Areca nut chewing and systemic inflammation : evidence of a common pathway for systemic diseases. 	1	6	23	44
+0	 Areca nut chewing and systemic inflammation: evidence of a common pathway for systemic diseases . 	1	6	79	96
+1	These risks may be even higher among tobacco -related cancer survivors (TRCS). 	37	44	54	60
+2	Epidemiological studies suggest that cocoa rich products reduce the risk of cardiovascular disease . 	37	42	76	98
+0	Secnidazole was 89.5% effective for the treatment of equine balantidiasis compared to 40.0% for Nigella sativa . 	96	110	60	73
+2	Nasal congestion and coffee/ tea intake also affected xerostomia . 	29	32	54	64
+0	Genetic predisposition to schizophrenia associated with increased use of cannabis . 	73	81	26	39

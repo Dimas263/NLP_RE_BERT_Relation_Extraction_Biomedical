@@ -10,10 +10,10 @@ import torch.nn as nn
 import numpy as np
 import pickle
 from torch.utils.data import DataLoader, RandomSampler
-from transformers import BertTokenizer
+from transformers import BertTokenizer, AutoTokenizer
 
 import config
-import preprocess
+import preprocess_no_log
 import dataset
 import models
 import utils
@@ -52,16 +52,6 @@ class Trainer:
     def save_ckp(self, state, checkpoint_path):
         torch.save(state, checkpoint_path)
 
-
-    """
-    def save_ckp(self, state, is_best, checkpoint_path, best_model_path):
-        tmp_checkpoint_path = checkpoint_path
-        torch.save(state, tmp_checkpoint_path)
-        if is_best:
-            tmp_best_model_path = best_model_path
-            shutil.copyfile(tmp_checkpoint_path, tmp_best_model_path)
-
-    """
 
     def train(self):
         total_step = len(self.train_loader) * self.args.train_epochs
@@ -194,55 +184,26 @@ class Trainer:
 if __name__ == '__main__':
     args = config.Args().get_parser()
     utils.utils.set_seed(args.seed)
-    utils.utils.set_logger(os.path.join(args.log_dir, 'main.log'))
+    utils.utils.set_logger(os.path.join(args.main_log_dir))
 
-    processor = preprocess.Processor()
+    processor = preprocess_no_log.Processor()
 
     label2id = {}
     id2label = {}
-    with open('input/data/rel_dict.json', 'r') as fp:
+    with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/rel_dict.json', 'r') as fp:
         labels = json.loads(fp.read())
     for k, v in labels.items():
         label2id[k] = v
         id2label[v] = k
     logger.info(label2id)
 
-    train_out = preprocess.get_out(processor, 'input/data/train.txt', args, id2label, 'train')
-    dev_out = preprocess.get_out(processor, 'input/data/test.txt', args, id2label, 'dev')
-    test_out = preprocess.get_out(processor, 'input/data/test.txt', args, id2label, 'test')
-    
-    train_features, train_callback_info = train_out
-    train_dataset = dataset.ReDataset(train_features)
-    train_sampler = RandomSampler(train_dataset)
-    train_loader = DataLoader(
-        dataset=train_dataset,
-        batch_size=args.train_batch_size,
-        sampler=train_sampler,
-        num_workers=2
-    )
-    #
-    dev_features, dev_callback_info = dev_out
-    dev_dataset = dataset.ReDataset(dev_features)
-    dev_loader = DataLoader(
-        dataset=dev_dataset,
-        batch_size=args.eval_batch_size,
-        num_workers=2
-    )
-    #
-    test_features, test_callback_info = dev_out
-    test_dataset = dataset.ReDataset(test_features)
-    test_loader = DataLoader(
-        dataset=test_dataset,
-        batch_size=args.eval_batch_size,
-        num_workers=2
-    )
-
     logger.info('======== Prediction ========')
     trainer = Trainer(args, None, None, None)
-    checkpoint_path = 'output/checkpoint/best.pt'
+    checkpoint_path = 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/checkpoint/best.pt'
     tokenizer = BertTokenizer.from_pretrained(args.bert_dir, local_files_only=True, ignore_mismatched_sizes=True)
+    # tokenizer = AutoTokenizer.from_pretrained(args.bert_dir, local_files_only=True, ignore_mismatched_sizes=True)
 
-    with open(os.path.join('input/data/predict.txt'), 'r') as fp:
+    with open(os.path.join('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/predict.txt'), 'r') as fp:
         lines = fp.readlines()
         for line in lines:
             line = line.strip().split('\t')
