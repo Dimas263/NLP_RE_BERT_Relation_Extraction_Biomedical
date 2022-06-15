@@ -29,8 +29,7 @@ python "drive/MyDrive/Colab Notebooks/bert_relation_extraction/main.py" \
 --dropout_prob=0.1 \
 ```
 
-# <img src="https://img.icons8.com/color/48/undefined/2-circle--v1.png"/> Dataset
-<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> [View Directory](input/data/)
+# <img src="https://img.icons8.com/color/48/undefined/2-circle--v1.png"/> Dataset <img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> [View Directory](input/data/)
 
 <img src="input/data/bar_chart.png" width="400">
 
@@ -59,8 +58,7 @@ id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_ent
 1	<e1start> Tobacco <e1end>-related <e2start> cancers <e2end> in Madras, India.  	0	25	34	59
 ```
 
-# <img src="https://img.icons8.com/color/48/undefined/3-circle--v1.png"/> Model input
-<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/>[View Directory](model/)
+# <img src="https://img.icons8.com/color/48/undefined/3-circle--v1.png"/> Model input <img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/>[View Directory](model/)
 
 `git clone https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext`
 
@@ -177,10 +175,10 @@ Treatment_of_disease       0.83      0.79      0.81        19
 [LOAD MORE.. ](output/logs)
 
 # <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Model output
-<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> ['1.3G Jun 14 20:35 best.pt'](https://drive.google.com/drive/folders/1_xUN_FlX9-4kt_CYCnf-gHwJh7G6k6qg?usp=sharing)
+<img src="https://img.icons8.com/external-sbts2018-flat-sbts2018/48/undefined/external-model-basic-ui-elements-2.4-sbts2018-flat-sbts2018.png"/> [`1.3G Jun 14 20:35 best.pt`](https://drive.google.com/drive/folders/1_xUN_FlX9-4kt_CYCnf-gHwJh7G6k6qg?usp=sharing)
 
 `Best.pt`
 model created by pytorch after Train and Validation 
 
-# <img src="https://img.icons8.com/color/48/undefined/7-circle--v1.png"/> Summary
-<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> [view Directory](output/summary)
+# <img src="https://img.icons8.com/color/48/undefined/7-circle--v1.png"/> Summary <img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> [view Directory](output/summary)
+<img src="https://img.icons8.com/color/48/undefined/microsoft-excel-2019--v1.png"/> [**Relation Extraction Report**](https://docs.google.com/spreadsheets/d/1Q6JgAC5rDz4EM00BuAlEaraC0tm3oZoYqBu_F01md7s/edit?usp=sharing)
