@@ -144,7 +144,7 @@ id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_ent
 
 ```
                         precision    recall   per-class   support
-                                    f1-scores
+                                              f1-scores
 
             Negative       0.83      0.67      0.74        15
     Cause_of_disease       0.69      0.92      0.79        12
@@ -154,7 +154,7 @@ Treatment_of_disease       0.83      0.79      0.81        19
 
 ```
                           precision    recall   Average     support
-                                    f1-scores
+                                               f1-scores
 
             accuracy                           0.79        47
            macro avg       0.84      0.84      0.83        47
