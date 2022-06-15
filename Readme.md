@@ -194,7 +194,7 @@ Treatment_of_disease       0.83      0.79      0.81        19
 
 ```
                         precision    recall   per-class   support
-                                    f1-scores
+                                              f1-scores
 
             Negative       0.61       0.73      0.67        15
     Cause_of_disease       0.90       0.75      0.82        12
@@ -204,7 +204,7 @@ Treatment_of_disease       0.78       0.74      0.76        19
 
 ```
                           precision    recall   Average     support
-                                    f1-scores
+                                               f1-scores
 
             accuracy                              0.74        47
            macro avg       0.82         0.81      0.81        47
