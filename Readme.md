@@ -158,6 +158,7 @@ Treatment_of_disease       0.83      0.79      0.81        19
         weighted avg       0.80      0.79      0.79        47
 ```
 </center>
+
 [LOAD MORE.. ](output/logs)
 
 - Predict
@@ -176,7 +177,7 @@ Treatment_of_disease       0.83      0.79      0.81        19
 [LOAD MORE.. ](output/logs)
 
 # <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Model output
-<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> [view model](https://drive.google.com/drive/folders/1_xUN_FlX9-4kt_CYCnf-gHwJh7G6k6qg?usp=sharing)
+<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> ['1.3G Jun 14 20:35 best.pt'](https://drive.google.com/drive/folders/1_xUN_FlX9-4kt_CYCnf-gHwJh7G6k6qg?usp=sharing)
 
 `Best.pt`
 model created by pytorch after Train and Validation 
