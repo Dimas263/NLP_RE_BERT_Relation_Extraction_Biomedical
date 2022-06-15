@@ -10,25 +10,27 @@
 # <img src="https://img.icons8.com/color/48/undefined/1-circle--v1.png"/> Config
 ```yaml
 #!/usr/bin/env bash
-python "main.py" \
---bert_dir="model/BiomedNLP-PubMedBERT/" \
---data_dir="input/data/" \
---log_dir="output/logs/" \
---output_dir="output/checkpoint/" \
+python "drive/MyDrive/Colab Notebooks/bert_relation_extraction/main.py" \
+--bert_dir="drive/MyDrive/Colab Notebooks/bert_relation_extraction/model/BiomedNLP-PubMedBERT/" \
+--data_dir="drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/" \
+--log_dir="drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/" \
+--main_log_dir="drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/BiomedNLP-PubMedBERT-main.log" \
+--preprocess_log_dir="drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/BiomedNLP-PubMedBERT-preprocess.log" \
+--output_dir="drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/checkpoint/BiomedNLP-PubMedBERT/" \
 --num_tags=4 \
 --seed=123 \
 --gpu_ids="0" \
 --max_seq_len=128 \
 --lr=1e-5 \
 --other_lr=1e-4 \
---train_batch_size=64 \
---train_epochs=500 \
---eval_batch_size=64 \
+--train_batch_size=16 \
+--train_epochs=100 \
+--eval_batch_size=16 \
 --dropout_prob=0.1 \
 ```
 
 # <img src="https://img.icons8.com/color/48/undefined/2-circle--v1.png"/> Dataset
-<img src="https://img.icons8.com/fluency/48/undefined/symlink-file.png"/> [View Directory](input/data/)
+<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> [View Directory](input/data/)
 
 <img src="input/data/bar_chart.png" width="400">
 
@@ -58,7 +60,7 @@ id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_ent
 ```
 
 # <img src="https://img.icons8.com/color/48/undefined/3-circle--v1.png"/> Model input
-<img src="https://img.icons8.com/fluency/48/undefined/symlink-file.png"/> [View Directory](model/)
+<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/>[View Directory](model/)
 
 `git clone https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext`
 
@@ -174,10 +176,10 @@ Treatment_of_disease       0.83      0.79      0.81        19
 [LOAD MORE.. ](output/logs)
 
 # <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Model output
-<img src="https://img.icons8.com/fluency/48/undefined/symlink-file.png"/> [view model](https://drive.google.com/drive/folders/1_xUN_FlX9-4kt_CYCnf-gHwJh7G6k6qg?usp=sharing)
+<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> [view model](https://drive.google.com/drive/folders/1_xUN_FlX9-4kt_CYCnf-gHwJh7G6k6qg?usp=sharing)
 
 `Best.pt`<br>
 model created by pytorch after Train and Validation 
 
 # <img src="https://img.icons8.com/color/48/undefined/7-circle--v1.png"/> Summary
-<img src="https://img.icons8.com/fluency/48/undefined/symlink-file.png"> [view Directory](output/summary)
+<img src="https://img.icons8.com/color/48/undefined/folder-invoices--v1.png"/> [view Directory](output/summary)
