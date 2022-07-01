@@ -12,7 +12,7 @@
 
 ### <img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 1](BiomedNLP_PubMedBERT_Notebook.ipynb)<br><br>`Created using BiomedNLP-PubMedBERT Pre-Trained Model`<br>
 
-### <img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 2.ipynb](Biobert_Notebook.ipynb)<br><br>`Created using Biobert Pre-Trained Model`
+### <img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 2](Biobert_Notebook.ipynb)<br><br>`Created using Biobert Pre-Trained Model`
 
 # <img src="https://img.icons8.com/color/48/undefined/1-circle--v1.png"/> Config
 
