@@ -251,3 +251,4 @@ if __name__ == '__main__':
     logger.info("【test】 loss：{:.6f} accuracy：{:.4f} micro_f1：{:.4f} macro_f1：{:.4f}".format(total_loss, accuracy, micro_f1, macro_f1))
     report = trainer.get_classification_report(test_outputs, test_targets, labels)
     logger.info(report)
+

@@ -222,3 +222,4 @@ if __name__ == '__main__':
     print(text)
     print('predict labels：', trainer.predict(tokenizer, text, id2label, args, ids))
     print('true label：', id2label[1])
+

@@ -76,3 +76,4 @@ class Args:
         parser = self.parse()
         parser = self.initialize(parser)
         return parser.parse_args()
+

@@ -1,20 +1,20 @@
 import matplotlib.pyplot as plt
 import csv
 
-x = []
-y = []
+import pandas as pd
+import csv
 
-with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/visualization/biobert-train.csv', 'r') as csvfile:
-    lines = csv.reader(csvfile, delimiter=',')
-    for row in lines:
-        x.append(int(row[2]))
-        y.append(float(row[3]))
+url = 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/visualization/biobert-train.csv'
 
-plt.plot(x, y, color='g', linestyle='dashed',
-         marker='o', label="Training Loss")
+biobert_train = pd.read_csv(url, header=0)
+
+x = biobert_train['Epoch']
+y = biobert_train['Loss']
+
+plt.plot(x, y, color='g', linestyle='dashed', marker='o', label="Training Loss", data=None)
 
 plt.xticks(rotation=25)
-plt.xlabel('Step')
+plt.xlabel('Epoch')
 plt.ylabel('Loss')
 plt.title('Training', fontsize=20)
 plt.grid()

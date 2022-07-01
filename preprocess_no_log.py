@@ -192,3 +192,4 @@ if __name__ == '__main__':
     train_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/train.txt', args, id2label, 'train')
     dev_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'dev')
     test_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'test')
+

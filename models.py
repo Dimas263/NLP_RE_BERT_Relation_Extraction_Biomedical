@@ -109,3 +109,4 @@ if __name__ == '__main__':
         output = model(token_ids, attention_masks, token_type_ids, ids)
         if step == 1:
             break
+
