@@ -222,7 +222,7 @@ true label：Negative
 # <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Model output
 
 ```yaml
--rwxrwxrwx 1 dimas dimas 1.3G Jun 27 13:17 Biobert/best.pt
--rwxrwxrwx 1 dimas dimas 1.3G Jun 27 14:17 BiomedNLP-PubMedBERT/best.pt
+- 1.3G Jun 27 13:17 Biobert/best.pt
+- 1.3G Jun 27 14:17 BiomedNLP-PubMedBERT/best.pt
 ```
 
