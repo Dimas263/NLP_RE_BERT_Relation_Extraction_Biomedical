@@ -16,9 +16,9 @@
 
 # <img src="https://img.icons8.com/color/48/undefined/1-circle--v1.png"/> Config
 
-## <img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> BioNLP
+BioNLP
 
-```javascript
+```yaml
 ! python main.py \
 --bert_dir=model/BiomedNLP-PubMedBERT/ \
 --data_dir=input/data/ \
@@ -38,7 +38,7 @@
 --dropout_prob=0.1 \
 ```
 
-## <img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> Biobert
+Biobert
 ```yaml
 ! python main.py \
 --bert_dir=model/Biobert/ \
@@ -61,25 +61,16 @@
 
 # <img src="https://img.icons8.com/color/48/undefined/2-circle--v1.png"/> Dataset
 
-# [Plant-Disease Corpus](input/data/)
-
-<img src="input/data/bar_chart.png" width="400">
-
-## <img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> Dictionary
+Dictionary
 
 ```json
 {"Cause_of_disease": 0, "Treatment_of_disease": 1, "Negative": 2, "Association": 3}
 ```
-## <img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> Data Preprocessing
+Preprocess
 
 <img src="input/data/data-preprocessing.png" width="600">
 
-## <img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> Example
-
-```yaml
-id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_entity1	end_entity1	start_entity2	end_entity2
-```
-## - Training Set
+Example
 
 ```yaml
 2	The evidence for <e1start> soybean <e1end> products as <e2start> cancer <e2end> preventive agents.  	17	42	55	79
@@ -87,26 +78,19 @@ id_relation	<e1start>entity1</e1end>	<e2start>entity2</e2end>	sentence	start_ent
 3	<e1start> Areca <e1end> nut chewing has a significant association with <e2start> systemic inflammation <e2end>.	0	23	71	110
 ...
 ```
-## - Testing Set
 
-```yaml
-1	Its effect on <e1start> digitalis <e1end>-caused <e2start> atrial arrhythmias <e2end> is unknown. 	14	41	49	85
-0	However, the growth rate of <e2start> tumors <e2end> was not markedly inhibited by <e1start> garlic <e1end>. 	83	107	28	52
-1	<e1start> Tobacco <e1end>-related <e2start> cancers <e2end> in Madras, India.  	0	25	34	59
-...
-```
 
-# <img src="https://img.icons8.com/color/48/undefined/3-circle--v1.png"/> Model input
+# <img src="https://img.icons8.com/color/48/undefined/3-circle--v1.png"/> Model
 
-# [BERT Transformers](model/)
+# [BERT + Transformers](model/)
 
-## <img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> BioNLP
+BioNLP
 
 ```
 git clone https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
 ```
 
-## <img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> Biobert
+Biobert
 
 ```
 git clone https://huggingface.co/dmis-lab/biobert-v1.1
@@ -126,17 +110,16 @@ text : However, more studies need to further explore the roles of vitex agnus ca
 
 . . . 
 ```
-[LOAD MORE..](output/logs)
 
 # <img src="https://img.icons8.com/color/48/undefined/5-circle--v1.png"/> Output
 
 ## Visualization
 
-## <img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> BioNLP
+BioNLP
 
 <img src="output/visualization/BiomedNLP-PubMedBERT-train.png" width="300"><img src="output/visualization/BiomedNLP-PubMedBERT-dev.png" width="300">
 
-## <img src="https://img.icons8.com/tiny-color/16/undefined/experimental-right-tiny-color.png"/> Biobert
+Biobert
 
 <img src="output/visualization/biobert-train.png" width="300"><img src="output/visualization/biobert-dev.png" width="300">
 
@@ -187,7 +170,7 @@ text : However, more studies need to further explore the roles of vitex agnus ca
 
 # Prediksi
 
-```javascript
+```yaml
 A lipid-soluble red ginseng extract inhibits the growth of human lung tumor xenografts in nude mice.
 torch.Size([1, 4, 768])
 predict labels：Treatment_of_disease
@@ -219,7 +202,7 @@ predict labels：Treatment_of_disease
 true label：Negative
 ```
 
-# <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Model output
+# <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Output
 
 ```yaml
 - 1.3G Jun 27 13:17 Biobert/best.pt

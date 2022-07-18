@@ -43,7 +43,7 @@ if __name__ == '__main__':
     label2id = {}
     id2label = {}
     
-    with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/rel_dict.json', 'r') as fp:
+    with open('drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/rel_dict.json', 'r') as fp:
         labels = json.loads(fp.read())
     for k, v in labels.items():
         label2id[k] = v
@@ -51,19 +51,19 @@ if __name__ == '__main__':
         
     print(label2id)
 
-    train_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/train.txt', args, id2label, 'train')
-    dev_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'dev')
-    test_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'test')
+    train_out = get_out(processor, 'drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/train.txt', args, id2label, 'train')
+    dev_out = get_out(processor, 'drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/test.txt', args, id2label, 'dev')
+    test_out = get_out(processor, 'drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/test.txt', args, id2label, 'test')
 
     # import pickle
-    # with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/final_data/train.pkl','wb') as fp:
+    # with open('drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/final_data/train.pkl','wb') as fp:
     #     pickle.dump(train_out, fp)
-    # with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/final_data/dev.pkl','wb') as fp:
+    # with open('drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/final_data/dev.pkl','wb') as fp:
     #     pickle.dump(dev_out, fp)
-    # with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/final_data/test.pkl','wb') as fp:
+    # with open('drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/final_data/test.pkl','wb') as fp:
     #     pickle.dump(test_out, fp)
     #
-    # train_out = pickle.load(open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/final_data/dev.pkl','rb'))
+    # train_out = pickle.load(open('drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/final_data/dev.pkl','rb'))
     
     train_features, train_callback_info = train_out
     train_dataset = ReDataset(train_features)
@@ -90,4 +90,3 @@ if __name__ == '__main__':
         print(train_data['labels'])
         print(train_data['ids'])
         break
-

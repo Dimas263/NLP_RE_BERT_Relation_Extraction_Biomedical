@@ -183,13 +183,12 @@ if __name__ == '__main__':
 
     label2id = {}
     id2label = {}
-    with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/rel_dict.json', 'r') as fp:
+    with open('drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/rel_dict.json', 'r') as fp:
         labels = json.loads(fp.read())
     for k, v in labels.items():
         label2id[k] = v
         id2label[v] = v
 
-    train_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/train.txt', args, id2label, 'train')
-    dev_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'dev')
-    test_out = get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'test')
-
+    train_out = get_out(processor, 'drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/train.txt', args, id2label, 'train')
+    dev_out = get_out(processor, 'drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/test.txt', args, id2label, 'dev')
+    test_out = get_out(processor, 'drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/test.txt', args, id2label, 'test')

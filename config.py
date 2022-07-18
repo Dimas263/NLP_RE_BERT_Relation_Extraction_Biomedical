@@ -10,22 +10,22 @@ class Args:
     @staticmethod
     def initialize(parser):
         # args for path
-        parser.add_argument('--output_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/checkpoint/',
+        parser.add_argument('--output_dir', default='drive/MyDrive/Rearch_Dimas/BERT_RE/output/checkpoint/',
                             help='the output dir for model checkpoints')
 
-        parser.add_argument('--bert_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/model/BiomedNLP-PubMedBERT/',
+        parser.add_argument('--bert_dir', default='drive/MyDrive/Rearch_Dimas/BERT_RE/model/BiomedNLP-PubMedBERT/',
                             help='bert dir for uer')
 
-        parser.add_argument('--data_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/',
+        parser.add_argument('--data_dir', default='drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/',
                             help='data dir for uer')
 
-        parser.add_argument('--log_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/',
+        parser.add_argument('--log_dir', default='drive/MyDrive/Rearch_Dimas/BERT_RE/output/logs/',
                             help='log dir for uer')
         
-        parser.add_argument('--main_log_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/BiomedNLP-PubMedBERT-main.log',
+        parser.add_argument('--main_log_dir', default='drive/MyDrive/Rearch_Dimas/BERT_RE/output/logs/BiomedNLP-PubMedBERT-main.log',
                             help='main log dir for uer')
         
-        parser.add_argument('--preprocess_log_dir', default='drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/logs/BiomedNLP-PubMedBERT-preprocess.log',
+        parser.add_argument('--preprocess_log_dir', default='drive/MyDrive/Rearch_Dimas/BERT_RE/output/logs/BiomedNLP-PubMedBERT-preprocess.log',
                             help='preprocess log dir for uer')
 
         # other args
@@ -76,4 +76,3 @@ class Args:
         parser = self.parse()
         parser = self.initialize(parser)
         return parser.parse_args()
-

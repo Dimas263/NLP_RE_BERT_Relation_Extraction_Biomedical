@@ -1,19 +1,99 @@
-0	OBJECTIVE: To study the role of pecan tree pollen in the development of allergy . 	32	37	72	79
-0	 Garlic consumption and cancer prevention: meta-analyses of colorectal and stomach cancers . 	1	7	75	90
-1	Patients with anaphylaxis to pea can have peanut allergy caused by cross-reactive IgE to vicilin (Ara h 1). 	29	32	42	56
-0	Genetic predisposition to schizophrenia associated with increased use of cannabis . 	73	81	26	39
-2	Efficacy of cancer prevention by high-selenium garlic is primarily dependent on the action of selenium. 	47	53	12	18
-0	Mutagen sensitivity, tobacco smoking and breast cancer risk: a case-control study. 	21	28	41	54
-2	 HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer. 	1	4	77	85
-2	Significant cancer protection was observed with treatment by the Se- garlic extract (at 3 p.p.m. 	69	75	12	18
-1	Our data also suggest that bleomycin sensitivity may modulate the effect of tobacco smoking on breast cancer risk. 	76	83	95	108
-2	Animals given AFB1 together with fresh garlic or garlic oil showed a significant reduction in tumor incidence. 	39	45	94	99
-0	The tumor incidences were 3% and 9% in animals given AFB1 plus garlic and AFB1 plus garlic oil, respectively. 	63	69	4	9
-1	 Tobacco smoke carcinogens, DNA damage and p53 mutations in smoking-associated cancers . 	1	8	79	86
-1	Its effect on digitalis -caused atrial arrhythmias is unknown. 	14	23	32	50
+2	At tumor promotion, wheat bran decreased the number of ACF (proximal colon, p = .005; distal colon, p = .047) and maintained the normal proliferative zone. 	20	25	3	8
+0	We studied whether coffee , decaffeinated coffee, total coffee, tea, or overall caffeine consumption was associated with the risk of RA , using the Nurses' Health Study, a longitudinal cohort study of 121,701 women. 	19	25	133	135
+0	This study newly revealed global metabolic alterations induced by coffee intake, providing significant insights into the association between coffee intake and the prevention of type 2 diabetes , utilizing the benefits of multi-omics analyses. 	66	72	177	192
+0	No modification in the pain threshold was elicited by electric stimuli both in coriander and control groups. 	79	88	23	27
+2	Epidemiologic studies have increasingly suggested that caffeine/ coffee could be an effective therapeutic against Alzheimer's disease (AD). 	65	71	114	133
+2	Joint effects of coffee consumption and serum gamma-glutamyltransferase on the risk of liver cancer . 	17	23	87	99
+1	Among neoplasms showing favorable trends, there were other tobacco -related neoplasms in men, plus the continuing fall in stomach and cervix uteri. 	59	66	6	15
+2	CONCLUSIONS: Tea and coffee drinking may decrease the risk of oral cavity cancer through antioxidant components which play a role in the repair of cellular damages. 	13	16	62	80
+2	An initial phase II clinical trial of pomegranate juice in patients with prostate cancer reported significant prolongation of prostate specific antigen doubling time. 	38	49	73	88
+2	Higher consumption of olive oil is considered the hallmark of the traditional Mediterranean diet, which has been associated with low incidence and prevalence of cancer , including colorectal cancer. 	22	27	161	167
+1	 Atrial tachyarrhythmias are a common manifestation of digitalis toxicity. 	55	64	1	24
+2	Inhibition of 7,12-dimethylbenz[a]anthracene (DMBA)-induced oral carcinogenesis in hamsters by tea and curcumin. 	95	98	60	79
+0	Estrogen activities and the cellular effects of natural progesterone from wild yam extract in mcf-7 human breast cancer cells. 	79	82	106	119
+0	The present study aimed to investigate the anticancer effect of aloe-emodin, an anthraquinone compound present in the leaves of Aloe vera , on two human colon carcinoma cell lines, DLD-1 and WiDr. 	128	137	153	168
+0	In the present study, cancer chemopreventive properties of both black tea polyphenols (BTP) and green tea polyphenols (GTP) on 7,12-dimethylbenz[a]anthracene (DMBA) induced mouse skin carcinogenesis were studied. 	96	105	22	28
+1	Association of TNF-alpha and TNFR1 promoters and 3' UTR region of TNFR2 gene polymorphisms with genetic susceptibility to tobacco -related oral carcinoma in Asian Indians. 	122	129	139	153
+2	Antitumor effects of a water-soluble extract from Maitake ( Grifola frondosa ) on human gastric cancer cell lines. 	60	76	88	102
+0	Relationship between long-term coffee consumption and components of the metabolic syndrome : the Amsterdam Growth and Health Longitudinal Study. 	31	37	72	90
+1	 Tobacco smoking and hypertension are significant factors associated with the development of these aneurysms . 	1	8	99	108
+1	Prevalence, extent and severity of periodontitis as well as tooth loss and edentulism are influenced by tobacco consumption in a dose-dependent manner. 	104	111	75	85
+2	The antioxidant response induced by Lonicera caerulaea berry extracts in animals bearing experimental solid tumors . 	36	60	102	114
+1	This study emphasizes the role of reducing tobacco smoking in the prevention of chronic respiratory diseases . 	43	50	88	108
+1	Targeted smoking prevention and cessation interventions are needed for cancer survivors, especially those diagnosed with a tobacco -related cancer . 	123	130	71	77
+0	METHOD: We assessed MD , RU and ND in same-sex twins from the population-based Swedish Twin Registry. 	25	27	20	22
+2	HAs and HPE were demonstrated to cause cancer cell apoptosis, especially in leukemia and gastric cancer . 	8	11	89	103
+2	Dietary wolfberry ameliorates retinal structure abnormalities in db/db mice at the early stage of diabetes . 	8	17	98	106
+2	Our studies showed that ethyl acetate extract of onion (EEO) had potent inhibitory effects on animal fatty acid synthase (FAS), and could induce apoptosis in FAS over-expressing human breast cancer MDA-MB-231 cells. 	49	54	184	197
+2	 Tea alone and in combination with curcumin significantly increased the apoptotic index in dysplasia and SCC . 	1	4	105	108
+0	Although directly predicting only a small amount of the variance in cannabis use, these findings suggest that part of the association between schizophrenia and cannabis is due to a shared genetic aetiology. 	68	76	142	155
+2	Among specific foods high in carotenoids, broccoli and spinach were most consistently associated with a lower risk of cataract . 	42	50	118	126
+0	METHODS AND MATERIALS: We randomized 58 head-and-neck cancer patients between oral aloe vera and placebo. 	83	92	40	60
+1	Prevalence, extent and severity of periodontitis as well as tooth loss and edentulism are influenced by tobacco consumption in a dose-dependent manner. 	104	111	35	48
+2	BACKGROUND: Consumption of Plantago ovata may protect against colorectal cancer . 	27	41	62	79
+0	DESIGN: Meta-analyses were conducted for all cancers mutually and separately for colorectal and stomach cancers in relation to consumption of exclusively raw garlic, cooked garlic , or both (RC garlic). 	158	164	81	111
+2	These data indicate that wild yam extract acts as a weak phytoestrogen and protects against proliferation in human breast carcinoma MCF-7 cells. 	30	33	115	131
+2	However, evidence has been accumulating that frequent consumption of coffee may reduce risk of type 2 diabetes and liver cancer . 	69	75	115	127
+0	For men, coffee consumption was not associated with any of the components of the metabolic syndrome . 	9	15	81	99
+2	CONCLUSION: Coffee drinking has an inverse and graded association with the risk of liver cancer . 	12	18	83	95
+0	In sum, the currently available evidence on coffee and risk of cardiovascular diseases and cancer is largely reassuring, and suggests that, for the general population, addressing other health-related behaviors has priority for the prevention of chronic diseases. 	44	50	91	97
+2	The combination of tea and curcumin significantly decreased the oral visible tumor incidence from 92.3% (24/26) to 69.2% (18/26) and the squamous cell carcinoma (SCC) incidence from 76.9% (20/26) to 42.3% (11/26). 	19	22	77	82
+0	OBJECTIVE: To study the therapeutic effect of Lespedeza Michx in experimental rat model of minimal change nephropathy (MCN). 	46	61	91	117
+0	We studied whether coffee, decaffeinated coffee , total coffee, tea, or overall caffeine consumption was associated with the risk of RA , using the Nurses' Health Study, a longitudinal cohort study of 121,701 women. 	19	25	133	135
+2	Exhaled nasal NO output during normobaric hypoxia was lowest following ginkgo (p < 0.003). 	71	77	42	49
+0	Confronting a neglected epidemic: tobacco cessation for persons with mental illnesses and substance abuse problems . 	34	41	90	114
+0	We used structural equation modeling to examine the relationship between MD, RU , and ND given RU. 	77	79	86	88
+2	Remarkably, daily oral feeding of 100 mg/kg body weight of GE inhibited growth and progression of PC-3 xenografts by approximately 56 % in nude mice, as shown by measurements of tumour volume. 	59	61	178	184
+2	The Greene Climacteric Scale revealed a significant reduction in scores in the areas of psychological symptoms, including the subscales for anxiety and depression and sexual dysfunction after Maca consumption compared with both baseline and placebo (P < 0.05). 	192	196	152	162
+3	Some meta-analyses suggest a possible effect for oesophagus, pancreas, larynx and kidney cancer , but other cancers show no effect of smokeless tobacco . 	144	151	71	95
+3	One established association is that between cannabis use and schizophrenia, a debilitating psychiatric disorder affecting ~1% of the population over their lifetime. 	44	52	91	111
+1	Recently, large studies on the association between genetic variation in CYP1B1 and CYP2C9 and risk of disease with considerable statistical power rebutted the hypotheses that these genetic variants affect risk of tobacco -related cancer, female cancer, chronic obstructive pulmonary disease and ischemic vascular disease . 	213	220	295	320
+0	OBJECTIVE: The objective was to conduct meta-analyses of the epidemiologic literature on the association between garlic consumption and risk of stomach, colon, head and neck, lung, breast, and prostate cancers . 	113	119	175	209
+2	Many epidemiological studies have indicated that coffee consumption may reduce the risks of developing obesity and diabetes , but the underlying mechanisms of these effects are poorly understood. 	49	55	115	123
+2	The coffee extract suppressed LPS-induced hepatitis when singly force-fed (1.2 g/kg) 1.5 h prior to the injection of the drugs, whereas a decaffeinated coffee extract had no significant effect. 	4	10	42	51
+2	The incidence of colon tumor was significantly decreased in the groups fed with 2.5%, 5%, and 10% garlic diets (p < 0.001). 	98	104	17	28
+2	However, evidence has been accumulating that frequent consumption of coffee may reduce risk of type 2 diabetes and liver cancer. 	69	75	95	110
+2	 Cardiac contractile dysfunction and apoptosis in streptozotocin-induced diabetic rats are ameliorated by garlic oil supplementation. 	106	112	1	32
+0	To investigate the preventive effects of tea on hyperglycemia and insulin resistance , male C57BL/6J mice were given a high-fat diet containing 29% lard and also green or black tea ad libitum for 14 weeks. 	41	44	66	84
+2	CONCLUSION: The results of the present study indicate that Ocimum sanctum mouthrinse may prove to be an effective mouthwash owing to its ability in decreasing periodontal indices by reducing plaque accumulation, gingival inflammation and bleeding . 	59	73	238	246
+2	Optimal dose of garlic to inhibit dimethylhydrazine-induced colon cancer . 	16	22	60	72
+0	This study examined whether they may prevent the occurrence of upper aerodigestive cancer in subjects heavily exposed to tobacco smoking, such as patients already cured of an early-stage lung cancer . 	121	128	187	198
+2	There is evidence that the following isolated soybean derived products suppress carcinogenesis in vivo: a protease inhibitor, the Bowman-Birk inhibitor, inositol hexaphosphate (phytic acid) and the sterol beta-sitosterol. 	46	53	80	94
+2	The combination of tea and curcumin significantly decreased the oral visible tumor incidence from 92.3% (24/26) to 69.2% (18/26) and the squamous cell carcinoma ( SCC ) incidence from 76.9% (20/26) to 42.3% (11/26). 	19	22	163	166
+2	Treatment with antitumor dose of black tea could replenish the host's antioxidant system and regress cancer -induced ROS significantly, thereby protecting the host's liver from lipid peroxidation and subsequent degeneration. 	33	42	101	107
+2	Only three Japanese prospective studies have suggested an inverse association between coffee drinking and liver cancer risk. 	86	92	106	118
+0	It is unlikely that garlic is useful in preventing cardiovascular disease . 	20	26	51	73
+2	CONCLUSION: Our results suggest that administration of vitex agnus castus plus magnesium may promote fracture healing. 	55	73	101	109
+2	The ethanol extract from the dried exudate of Bursera fagaroides ( Burseraceae ) showed significant cytotoxic activity in the HT-29 (human colon adenocarcinoma ) test system. 	67	78	139	159
+0	The lack of association of the nude mice tumour DNA with myc/ras/EGF-R showing aberrations in the primary human tumour, implies activation of an alternative potent transforming gene(s) in the chewing tobacco -related oral carcinomas in India. 	200	207	41	47
+0	Analysis of the tea and cancer relationship in a subgroup that included subjects in the lowest two quintiles of consumption of vegetables and fruits also failed to reveal a protective effect of tea consumption on the risk of three cancer types studied (colorectal, lung, and breast cancers ). 	16	19	265	289
+2	Here we report Ehrlich's ascites carcinoma (EAC)induced hepatotoxicity and its protection by antitumor dose of black tea in mice. 	111	120	56	70
+2	CONCLUSION: Our meta-analysis suggests that garlic preparations are superior to placebo in reducing blood pressure in individuals with hypertension . 	44	50	135	147
+2	In order to ascertain that the efficacy of the high-selenium garlic in cancer protection is primarily dependent on the action of selenium we compared the effects of two batches of garlic powder with marked differences in their level of selenium enrichment, 112 or 1355 p.p.m. 	61	67	71	77
+3	CONCLUSIONS: The consumption of dairy products, soy beverages, and apples and pears , but not of nutrients per se, was associated with a range of asthma definitions. 	78	83	146	152
+2	 Aloe -emodin, one of the anthraquinones, has been shown to have anticancer activity in different kinds of human cancer cell lines. 	1	5	69	75
+2	CONCLUSION: Green tea consumption was associated with a lower risk of death from pneumonia in Japanese women. 	12	21	81	90
+0	Exposure to environmental tobacco smoke generally showed little relation to lung cancer risk. 	26	33	76	87
+0	In this study, the neuroprotective effect of the extract of ginger (Zingiber officinale) was investigated against MSG-induced neurotoxicity of male albino rat. 	60	66	126	139
+0	In this study, we assessed the anti-arthritic effects of red ginseng saponin extract (RGSE), including ginsenosides Rg3, Rk1 and Rg5 as major components, on a murine type II collagen (CII)-induced arthritis (CIA), which is a valid animal model of human arthritis . 	61	68	197	206
+2	Intraperitoneal injection of Ginkgo biloba extract enhances antioxidation ability of retina and protects photoreceptors after light-induced retinal damage in rats. 	29	42	140	154
+2	The combination of tea and curcumin also decreased the number of visible tumors and the tumor volume by 52.4 and 69.8%, as well as the numbers of SCC, dysplasic lesions and papillomas by 62.0, 37.5 and 48.7%, respectively. 	19	22	173	183
+1	 Diabetes , hypertension, cardiovascular diseases, oropharyngeal and oesophageal cancers have been associated with areca nut chewing and the mechanism by which areca nut chewing increases the risk of systemic diseases remains elusive. 	115	120	1	9
+0	We excluded participants for whom data on green tea consumption frequency were missing or who had reported a history of cancer, myocardial infarction, stroke , and extreme daily energy intake at baseline. 	42	51	151	157
+0	Cytotoxicity of macrophages' supernatant on WEHI-164 fibrosarcoma cells was not affected by garlic protein fractions (P = 0.066 for 14-kDa and P = 0.085 for 47-kDa fractions). 	92	98	53	65
+0	Analysis of the tea and cancer relationship in a subgroup that included subjects in the lowest two quintiles of consumption of vegetables and fruits also failed to reveal a protective effect of tea consumption on the risk of three cancer types studied (colorectal, lung, and breast cancers). 	16	19	24	30
+0	We examined the relationship of environmental tobacco smoke (ETS) and visible mold exposures on the development of allergic rhinitis , rhinitis and upper respiratory infection (URI) in a birth cohort where at least one parent was skin prick test (SPT) positive. 	46	53	115	132
+1	Gliadin from wheat is a common food allergen that can induce baker's asthma, wheat -dependent exercise-induced anaphylaxis , atopic dermatitis, and celiac disease. 	13	18	111	122
+0	Among neoplasms showing favorable trends, there were other tobacco -related neoplasms in men, plus the continuing fall in stomach and cervix uteri. 	59	66	6	15
+2	CONCLUSIONS: Preliminary findings show that Lepidium meyenii (Maca) (3.5 g/d) reduces psychological symptoms , including anxiety and depression, and lowers measures of sexual dysfunction in postmenopausal women independent of estrogenic and androgenic activity. 	44	60	86	108
 2	A lipid-soluble red ginseng extract inhibits the growth of human lung tumor xenografts in nude mice. 	20	27	65	75
-2	CONCLUSION: Lespedeza Michx was effective on MCN . 	12	27	45	48
-2	Thus smaller tumor volume and longer survival time were found in the garlic group than in the controls (p < 0.01). 	69	75	13	18
-2	Preventive action of garlic on aflatoxin B1-induced carcinogenesis in the toad Bufo regularis. 	21	27	52	66
-2	Caffeine and coffee as therapeutics against Alzheimer's disease . 	13	19	44	63
-1	An excess risk of dying of lung cancer and heart diseases probably reflects a high tobacco consumption. 	83	90	43	57
+0	AIM: To investigate the anti-hepatofibrotic effects of Gardenia jasminoides in liver fibrosis . 	55	75	79	93
+2	Exhaled nasal NO output was increased during normoxia following ginkgo (p < 0.02) and reduced during normobaric hypoxia both before (p < 0.02) and following (p < 0.003) ginkgo . 	64	70	112	119
+2	RESULTS: Consumption of P ovata tended to be inversely correlated with mortality from colorectal cancer . 	24	31	86	103
+0	Intragastric bile acid concentrations in healthy subjects and in patients with gastric and duodenal ulcer and the influence of fiber-enriched wheat bran in patients with gastric ulcer. 	142	147	91	105
+0	OBJECTIVE: We evaluated the association between olive oil and overall and cause-specific mortality in the Spanish population in the European Prospective Investigation into Cancer and Nutrition (EPIC-Spain). 	48	53	172	178
+0	Focusing on overlapping cancer clusters may help investigators identify priority areas for further screening, detailed assessments of tobacco use, and/or prevention and cessation interventions to decrease risk. 	134	141	24	30
+2	In this study, possible protective effect of Zingiber officinale , a medicinal plant reputed for neuroprotective effect against oxidative stress-related brain damage, on brain damage and memory deficit induced by focal cerebral ischemia was elucidated. 	45	64	187	201
+0	Caffeinated coffee provided to AD mice also quickly decreased plasma Abeta levels, but not "decaffeinated" coffee , suggesting that caffeine is critical to decreasing blood Abeta levels. 	12	18	31	33
+1	 Tobacco -related cancer mortality: projections for different geographical regions in Switzerland. 	1	8	18	24
+3	CONCLUSIONS: The consumption of dairy products, soy beverages, and apples and pears, but not of nutrients per se, was associated with a range of asthma definitions. 	48	51	145	151

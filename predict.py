@@ -190,7 +190,7 @@ if __name__ == '__main__':
 
     label2id = {}
     id2label = {}
-    with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/rel_dict.json', 'r') as fp:
+    with open('drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/rel_dict.json', 'r') as fp:
         labels = json.loads(fp.read())
     for k, v in labels.items():
         label2id[k] = v
@@ -199,11 +199,11 @@ if __name__ == '__main__':
 
     logger.info('======== Prediction ========')
     trainer = Trainer(args, None, None, None)
-    checkpoint_path = 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/output/checkpoint/best.pt'
+    checkpoint_path = 'drive/MyDrive/Rearch_Dimas/BERT_RE/output/checkpoint/best.pt'
     tokenizer = BertTokenizer.from_pretrained(args.bert_dir, local_files_only=True, ignore_mismatched_sizes=True)
     # tokenizer = AutoTokenizer.from_pretrained(args.bert_dir, local_files_only=True, ignore_mismatched_sizes=True)
 
-    with open(os.path.join('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/predict.txt'), 'r') as fp:
+    with open(os.path.join('drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/predict.txt'), 'r') as fp:
         lines = fp.readlines()
         for line in lines:
             line = line.strip().split('\t')
@@ -222,4 +222,3 @@ if __name__ == '__main__':
     print(text)
     print('predict labels：', trainer.predict(tokenizer, text, id2label, args, ids))
     print('true label：', id2label[1])
-

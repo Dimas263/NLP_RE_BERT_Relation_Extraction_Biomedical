@@ -201,16 +201,16 @@ if __name__ == '__main__':
 
     label2id = {}
     id2label = {}
-    with open('drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/rel_dict.json', 'r') as fp:
+    with open('drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/rel_dict.json', 'r') as fp:
         labels = json.loads(fp.read())
     for k, v in labels.items():
         label2id[k] = v
         id2label[v] = k
     logger.info(label2id)
 
-    train_out = preprocess_no_log.get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/train.txt', args, id2label, 'train')
-    dev_out = preprocess_no_log.get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'dev')
-    test_out = preprocess_no_log.get_out(processor, 'drive/MyDrive/Colab Notebooks/bert_relation_extraction/input/data/test.txt', args, id2label, 'test')
+    train_out = preprocess_no_log.get_out(processor, 'drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/train.txt', args, id2label, 'train')
+    dev_out = preprocess_no_log.get_out(processor, 'drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/test.txt', args, id2label, 'dev')
+    test_out = preprocess_no_log.get_out(processor, 'drive/MyDrive/Rearch_Dimas/BERT_RE/input/data/test.txt', args, id2label, 'test')
 
     
     train_features, train_callback_info = train_out
@@ -251,4 +251,3 @@ if __name__ == '__main__':
     logger.info("【test】 loss：{:.6f} accuracy：{:.4f} micro_f1：{:.4f} macro_f1：{:.4f}".format(total_loss, accuracy, micro_f1, macro_f1))
     report = trainer.get_classification_report(test_outputs, test_targets, labels)
     logger.info(report)
-
