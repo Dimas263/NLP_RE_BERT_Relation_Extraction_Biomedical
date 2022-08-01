@@ -6,9 +6,9 @@
 
 ## <img src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/undefined/external-man-avatar-avatar-fauzidea-flat-fauzidea.png"/> **`Dimas Dwi Putra`**
 
-# [Architecture](https://dimas263.github.io/work/data/RE-Architecture.html)
+# Architecture
 
-<img src="RE-Architecture.png">
+<p align="center"><img src="RE-BERT-Architecture.png" WIDTH="11174"></p>
 
 ### <img src="https://img.icons8.com/color/48/undefined/python--v1.png"/> [Notebook 1](BiomedNLP_PubMedBERT_Notebook.ipynb)<br><br>`Created using BiomedNLP-PubMedBERT Pre-Trained Model`<br>
 
@@ -59,7 +59,7 @@ Biobert
 --dropout_prob=0.2 \
 ```
 
-# <img src="https://img.icons8.com/color/48/undefined/2-circle--v1.png"/> Dataset
+# <img src="https://img.icons8.com/color/48/undefined/2-circle--v1.png"/> Dataset<br>[View Dataset .txt](input/data/)
 
 Dictionary
 
@@ -202,7 +202,8 @@ predict labels：Treatment_of_disease
 true label：Negative
 ```
 
-# <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Output
+# <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Output 
+save model as pytorch file .pt
 
 ```yaml
 - 1.3G Jun 27 13:17 Biobert/best.pt
@@ -224,7 +225,7 @@ true label：Negative
 #### [6. NER BERT BiLSTM CRF Named Entity Recognition](https://github.com/Dimas263/NLP_NER_BERT_BILSTM_CRF_Named_Entity_Recognition)
 
 
-### **Relation Extraction (NER)**
+### **Relation Extraction (RE)**
 #### [1. RE Dataset Biomedical Plant-Disease Corpus](https://github.com/Dimas263/NLP_RE_Dataset_Biomedical_Plant-Disease_Corpus)
 #### [2. RE BERT Relation Extraction Biomedical](https://github.com/Dimas263/NLP_RE_BERT_Relation_Extraction_Biomedical)
 #### [3. RE BiLSTM CRF Relation Extraction Biomedical](https://github.com/Dimas263/NLP_RE_BILSTM_CRF_Relation_Extraction_Biomedical)
